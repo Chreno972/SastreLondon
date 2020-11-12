@@ -166,11 +166,11 @@ if(isset($send))
             <div class="row" id="firstRow">
                 <div class="col-md-1 col-sm-0" id="separator-left-right"></div>
                 <div class="col-md-12 col-lg-6" id="costumeBook">
-                    <img src="/assets/images/booknow/costume-book-now.jpg" alt="">
+                    <img src="/assets/images/booknow/costume-book-now.jpg" alt="image book now">
                 </div>
                 <div class="col-lg-4 col-md-12" id="costumeTextBook">
                     <div class="getInTouchWord">
-                        <img src="/assets/images/mots-en-images/getintouch-booknow.jpg" alt="">
+                        <img src="/assets/images/mots-en-images/getintouch-booknow.jpg" alt="image book now">
                     </div>
                     <div class="write-left-right">
                         <p class="write-left">
@@ -186,7 +186,7 @@ if(isset($send))
                         </p>
                     </div>
                     <div class="getInTouchWord2">
-                        <img src="/assets/images/mots-en-images/we'dlovetohear-booknow.jpg" alt="">
+                        <img src="/assets/images/mots-en-images/we'dlovetohear-booknow.jpg" alt="image book now">
                     </div>
                 </div>
                 <div class="col-md-1 col-sm-0" id="separator-left-right"></div>
@@ -197,7 +197,7 @@ if(isset($send))
                     <p style="font-size: 12px;font-family: 'Dosis'; color:#222222;">Please use our contact form to book an appointment and one of tailoring experts will get in touch to plan your initial consultation.</p>
                     <br>
                     <div id="mycalendar" >
-                        <img src="/assets/images/booknow/sketch.jpg" width="100%" height="auto" alt="">
+                        <img src="/assets/images/booknow/sketch.jpg" width="100%" height="auto" alt="image book now">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12" id="contactform">
@@ -255,7 +255,7 @@ if(isset($send))
     <footer>
         <div class="footer-content3">
             <span id="social-media3">
-                <a href="https://www.instagram.com/sastrelondon/"><img style="width: 100px;height: 80px;" src="/assets/images/gifs/insta.gif" alt=""></a>
+                <a href="https://www.instagram.com/sastrelondon/"><img style="width: 100px;height: 80px;" src="/assets/images/gifs/insta.gif" alt="follow me on instagram"></a>
                 <p><a href="https://www.instagram.com/sastrelondon/">Follow us on Instagram</a></p>
             </span>
             <span id="rights3">
@@ -267,7 +267,7 @@ if(isset($send))
         </div>
         <div class="getbacktop">
             <button class="btn">
-                <img class="heartBeat" src="/node_modules/bootstrap-icons/icons/chevron-up.svg" alt=""><br>
+                <img class="heartBeat" src="/node_modules/bootstrap-icons/icons/chevron-up.svg" alt="go to the top of the site"><br>
                 go back up
             </button>
         </div>
