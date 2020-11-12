@@ -1,4 +1,30 @@
+/* messent=#00BFA6 */
 
+#messent-container {
+    width: 50%;
+    height: 600px;
+    padding: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px #222;
+    position: absolute;
+    top:100px;
+    left: 500px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#messent-container img {
+    width: 300px;
+    height: auto;
+}
+.messent {
+    color: #00BFA6;
+    justify-self: flex-start;
+}
 .sastre-logo
 {
     font-size: 30px;

@@ -1,4 +1,12 @@
+// IMPORTS
 @import url('https://fonts.googleapis.com/css?family=Allura|Arima+Madurai|Caveat|Cedarville+Cursive|Cookie|Courgette|Dosis|EB+Garamond|Lobster|Lobster+Two|Marck+Script|Pacifico|Parisienne|Playball|Quattrocento|Quicksand|Rakkas|Sacramento|Satisfy|Scope+One|Shadows+Into+Light|Sulphur+Point|Vesper+Libre|Work+Sans|Yatra+One&display=swap');
+
+
+// GENERAL
+*
+{
+    font-family: 'Dosis', sans-serif;
+}
 body
 {
     font-family: 'Dosis', sans-serif;
@@ -11,10 +19,9 @@ body
     color: rgba(33,33,33,.94);
     scroll-behavior: smooth;
 }
-*
-{
-    font-family: 'Dosis', sans-serif;
-}
+// HEADER
+// MAIN 
+// FOOTER
 .getbacktop
 {
     width: 100%;

@@ -5,69 +5,68 @@
     require 'PHPMailer-master/src/Exception.php';
     require 'PHPMailer-master/src/PHPMailer.php';
     require 'PHPMailer-master/src/SMTP.php';
+    require 'vendor/autoload.php';
+    @$fname = stripslashes(htmlentities($_POST['FirstName']));
+    @$lname = stripslashes(htmlentities($_POST['LastName']));
+    @$email = stripslashes(htmlentities($_POST['Email']));
+    @$subject = stripslashes(htmlentities($_POST['Subject']));
+    @$phone = stripslashes(htmlentities($_POST['Phone']));
+    @$message = stripslashes(htmlentities($_POST['Message']));
+    @$fields = [$fname, $lname, $mail, $subject, $phone, $message];
+    @$send = $_POST['Submit'];
 
-require 'vendor/autoload.php';
-@$fname = stripslashes(htmlentities($_POST['FirstName']));
-@$lname = stripslashes(htmlentities($_POST['LastName']));
-@$email = stripslashes(htmlentities($_POST['Email']));
-@$subject = stripslashes(htmlentities($_POST['Subject']));
-@$phone = stripslashes(htmlentities($_POST['Phone']));
-@$message = stripslashes(htmlentities($_POST['Message']));
-@$fields = [$fname, $lname, $mail, $subject, $phone, $message];
-@$send = $_POST['Submit'];
-/* Expression régulière permettant de vérifier si le
-* format d'une adresse e-mail est correct */
-$regex_mail = '/^[-+.\w]{1,64}@[-.\w]{1,64}\.[-.\w]{2,6}$/i';
-/* Expression régulière permettant de vérifier qu'aucun
-* en-tête n'est inséré dans nos champs */
-$regex_head = '/[\n\r]/';
-@$entete .= "Today : ". date("D, j M Y") . " at " . date(" H:i ");
-@$fnerror = " ";
-@$lnerror = " ";
-@$mlerror = " ";
-@$sberror = " ";
-@$pnerror = " ";
-@$mserror = " ";
-@$messent = " ";
-//var_dump($fields);
-if(isset($send))
-{
+    /* Expression régulière permettant de vérifier si le format d'une adresse e-mail est correct */
+    $regex_mail = '/^[-+.\w]{1,64}@[-.\w]{1,64}\.[-.\w]{2,6}$/i';
+
+    /* Expression régulière permettant de vérifier qu'aucun en-tête n'est inséré dans nos champs */
+    $regex_head = '/[\n\r]/';
+    @$entete .= "Today : ". date("D, j M Y") . " at " . date(" H:i ");
+    @$fnerror = " ";
+    @$lnerror = " ";
+    @$mlerror = " ";
+    @$sberror = " ";
+    @$pnerror = " ";
+    @$mserror = " ";
+    @$messent = " ";
+    //var_dump($fields);
+    if(isset($send)) {
     if(empty($fname)) $fnerror = 'Please enter a First name!';
     if(empty($lname)) $lnerror = 'Please enter a Last name!';
     if(empty($email)) $mlerror = 'Please enter an e-mail adress!';
     if(empty($subject)) $sberror = 'Please enter a Subject!';
     if(empty($phone)) $pnerror = 'Please enter a Phone number!';
     if(empty($message)) $mserror = 'Please enter a message!';
-    foreach($fields as $field)
-    {
-        if (empty($field)) 
-        {
+    foreach($fields as $field) {
+        if (empty($field)) {
             $messent = '<span style="color:crimson;text-shadow: 1px 1px 1px #222;">Please look below, you forgot some fields</span>';
         }
-        else
-        {
-            $messent = '<span>Thank you for your message,'. ' ' . htmlentities(strtolower($fname)) . ' ' . 'we will contact you soon. have a nice day !</span>';
+        else {
+            $messent = '
+            <div id="messent-container">
+                <p class="messent"><?php $messent > Thank you for your message,'. ' ' . htmlentities(strtolower($fname)) . ' ' . 'we will contact you soon. have a nice day ! </p>
+                <img src="./assets/images/gifs/undraw_approve_qwp7.svg" alt="approval image">
+            </div>
+            ';
         }
     };
+
     $mail = new PHPMailer(true);
-    try 
-    {
+
+    try {
         //Server settings
-        //$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
-        $mail->isSMTP();                                            // Send using SMTP
-        $mail->Host       = 'SSL0.OVH.NET';                    // Set the SMTP server to send through
-        $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-        $mail->Username   = 'contact@sastrelondon.com';                     // SMTP username
-        $mail->Password   = 'Youngfolk37!';                               // SMTP password
-        $mail->SMTPSecure = 'ssl';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
-        $mail->Port       = 465;                                    // TCP port to connect to
-    
+        //$mail->SMTPDebug = SMTP::DEBUG_SERVER; // Enable verbose debug output
+        $mail->isSMTP(); // Send using SMTP
+        $mail->Host       = 'SSL0.OVH.NET'; // Set the SMTP server to send through
+        $mail->SMTPAuth   = true; // Enable SMTP authentication
+        $mail->Username   = 'contact@sastrelondon.com'; // SMTP username
+        $mail->Password   = 'Youngfolk37!'; // SMTP password
+        $mail->SMTPSecure = 'ssl'; // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
+        $mail->Port       = 465; // TCP port to connect to  
         //Recipients
         $mail->setFrom( $email, $email);
-        $mail->addAddress('contact@sastrelondon.com', 'Frank Tchakounte');
-    
+        $mail->addAddress('contact@sastrelondon.com', 'Frank Tchakounte');  
         // Content
-        $mail->isHTML(true);                                  // Set email format to HTML
+        $mail->isHTML(true); // Set email format to HTML
         $mail->Subject = 
         ' Message of ' . $fname . ' from Sastrelondon.com ' ;
         $mail->Body    = 
@@ -80,15 +79,13 @@ if(isset($send))
         . '<strong>Subject</strong> : <br> ' . $subject . '<br><br>'
         . '<strong>Message</strong> : <br>' . $message . '<br><br>'
         . '</div><br>'
-        . '<strong>Have a nice day</strong>';
-        
+        . '<strong>Have a nice day</strong>';      
         $mail->AltBody = 'This is the body in plain text for non-HTML mail clients'; 
         $mail->send();
-        //echo 'Message has been sent';
-    } catch (Exception $e) {
-        //echo "Message could not be sent. Mailer Error: {" . $mail->ErrorInfo . "}";
-    }
-    
+    } 
+    catch (Exception $e) {
+        echo "Message could not be sent. Mailer Error: {" . $mail->ErrorInfo . "}";
+    }  
 };
 ?>
 <!DOCTYPE html>
@@ -107,11 +104,11 @@ if(isset($send))
         <link rel="stylesheet" href="/node_modules/animate.css/animate.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
-        <title>Document</title>
+        <title>Sastre London - Now, let's book an appointment</title>
     </head>
     <body>
         <div class="container-fluid">
-        <header class="header-top">
+            <header class="header-top">
                 <div class="Header-inner-top">
                     <div class="hamburger-content">
                         <nav class="Header-nav-primary">       
@@ -249,8 +246,7 @@ if(isset($send))
         <script src="/assets/js/navbar.js"></script>
         <script src="/node_modules/animate/index.js"></script>
         <script src="/assets/js/btnfoot.js"></script>
-        <script type="text/javascript">
-        </script>
+        
     </body>
     <footer>
         <div class="footer-content3">
