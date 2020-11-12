@@ -1,0 +1,283 @@
+
+.sastre-logo
+{
+    font-size: 30px;
+    text-decoration: none;
+    list-style-type: none;
+    color: #222;
+    line-height: 1rem;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: none;
+    text-align: center;
+    text-shadow: rgba(87, 75, 50, 0.671);
+    align-items: 10px auto 20px auto;
+}
+.sastre-logo:hover
+{
+    font-size: 30px;
+    color: rgba(34, 34, 34, 0.473);
+    text-transform: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+.london-logo
+{
+    font-size: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    color: #222;
+    line-height: 1rem;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: none;
+    text-align: center;
+    text-shadow: rgba(87, 75, 50, 0.671);
+    margin: 5px auto 0 auto;
+}
+.london-logo:hover
+{
+    font-size: 10px;
+    color: rgba(34, 34, 34, 0.473);
+    text-transform: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/*the page container*/
+#pageContent
+{
+    width: 100%;
+    height: auto;
+    padding: 13px 50px 50px 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+#firstRow
+{
+    width:1837px;
+    height:1105px;
+    background:white;
+    margin: 0 -17px 40px -17px;
+}
+#separator-left-right
+{
+    height: 51px;
+    padding: 0 17px 17px;
+}
+#costumeBook
+{
+    width:918px;
+    height:1105px;
+    padding: 0 17px 17px;
+}
+#costumeBook img
+{
+    width:884px;
+    height:1088px;
+}
+#costumeTextBook
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.getInTouchWord
+{
+    width:612px;
+    height:269px;
+    padding: 0 17px 17px;
+}
+.getInTouchWord img
+{
+    width:578px;
+    height:252px;
+}
+.getInTouchWord2
+{
+    width:612px;
+    height:226px;
+    padding:17px;
+}
+.getInTouchWord2 img
+{
+    width:578px;
+    height:192px;
+}
+.write-left-right
+{
+    width: 612px;
+    height: 178px;
+    padding: 0 17px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+}
+.write-left
+{
+    text-align: left;
+}
+.write-space
+{
+    width: 100%;
+    height: 18px;
+    margin: 12px;
+}
+.write-right
+{
+    text-align: right;
+}
+.blocSeparator
+{
+    width: 100%;
+    height: 118px;
+    padding: 17px;
+    margin: 0 auto;
+    justify-self: center;
+}
+.blocWarning
+{
+    width: 100%;
+    height: 51px;
+    padding: 17px;
+    font-size: 12px;
+    color: rgba(34, 34, 34, 0.589);
+}
+/* The second row */
+#secondRow
+{
+    width:1837px;
+    height:auto;
+    display: flex;
+    justify-content: center;
+}
+#planning
+{
+    width: 100%;
+    height: auto;
+    padding: 22px 17px 17px 17px;
+    display: flex;
+    flex-direction: column;
+}
+#planning p
+{
+    justify-self: flex-start;
+    font-size: 16px!important;
+    margin: 0;
+}
+#mycalendar
+{
+    height: auto;
+    border: none;
+    color: rgba(34, 34, 34, 0.575);
+    background: none;
+}
+#contactform
+{
+    width: 100%;
+    height: auto;
+    padding: 17px;
+}
+.yui3-calendar-weekday
+{
+    text-align: center;
+    height: auto;
+}
+.yui3-calendar
+{
+    height: 200px!important;
+}
+.yui3-content-expanded
+{
+    justify-self: center;
+}
+.labels
+{
+    font-size: 12px;
+    color: rgba(34, 34, 34, 0.589);
+}
+#names
+{
+    display: flex;
+    flex-direction: column;
+}
+#exampleInputFirstName
+{
+    width: 100%;
+}
+#exampleInputLastName
+{
+    width: 100%;
+}
+input, textarea
+{
+    box-shadow: 1px 1px 1px 1px rgba(34, 34, 34, 0.438);   
+}
+input:hover, textarea:hover
+{
+    box-shadow: none;   
+}
+#submit
+{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background: #222;
+    box-shadow: 2px 2px 2px black;
+    border: none;
+    color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#submit:hover
+{
+    box-shadow: none;
+}
+.footer-content3
+{
+    width:inherit;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #222;
+}
+#rights3
+{
+    margin: 20px 30px 0 30px;
+}
+#madeby3
+{
+    margin: 20px 30px 0 30px;
+    text-decoration: none;
+}
+#madeby3 a
+{
+    color: #222;
+    text-decoration: none;
+}
+#social-media3
+{ 
+    margin: 0 30px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+#social-media3 a
+{ 
+    color: #222;
+    text-decoration: none;
+}
+#social-media3 img
+{ 
+    margin: 0 10px;
+}
+#submit
+{
+    width: 100%;
+}

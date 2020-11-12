@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="stylesheet" href="/assets/css/lifestyle.css">
+        <link rel="stylesheet" href="/assets/css/responsive-tablettes.css">
+        <link rel="stylesheet" href="/assets/css/responsive-smartphones.css">
+        <link rel="stylesheet" href="/assets/css/responsive-laptop-padpro.css">
+        <link rel="stylesheet" href="/assets/css/reset.css">
+        <link rel="stylesheet" href="/assets/css/navbar.css">
+        <link rel="stylesheet" href="/node_modules/animate.css/animate.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <header class="header-top">
+                <div class="Header-inner-top">
+                    <div class="hamburger-content">
+                        <nav class="Header-nav-primary">       
+                            <div class="Header-nav-inner">
+                                <a href="index.html" class="Header-nav-item">Home</a>
+                                <a href="service.html" class="Header-nav-item" data-test="template-nav">Our Service</a>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="top-center">
+                        <a href="index.html" class="Header-branding">
+                            <span class="sastre-logo">SASTRÉ</span>
+                            <span class="london-logo">LONDON</span>
+                        </a>
+                    </div>
+                    <div class="hamburger-content">
+                        <nav class="Header-nav-secondary">  
+                            <div class="Header-nav-inner">
+                                <a href="lifestyle.html" class="Header-nav-item" alt="nav-item">
+                                    Lifestyle
+                                </a>
+                                <a href="book.php" class="Header-nav-item" alt="nav-item">
+                                    Book Now
+                                </a>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                
+                    <!--le bouton hamburger avec son entité html-->
+                    <span class="round-button" id="toggle-button"> <h2>...</h2></span>
+                <div class="contenu-bouton-responsive">
+                    <!--le menu qui se dépliera à partir du côté que l'on nomme sidebar-->
+                    <div id="hamburger-sidebar">
+                        <div id="hamburger-sidebar-body"></div>
+                    </div>
+                    <!--Notre masque qui viendra en fond, nommé overlay
+                    l'idée principale est de venir remplir automatiquement 
+                    la sidebar du contenu du menu. quand la taille de notre
+                    document est convenablement réduite, on impacte sur ces 
+                    deux éléments pour afficher notre menu hamburger-->
+                    <div id="hamburger-overlay"> 
+                        <p>
+                            X
+                        </p>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <section id="allServicePage">
+            <!--premier costume-->
+            <div class="row" id="lifestyle-one">
+                <div class="col-lg-7 col-md-12" style="margin: 0;padding: 0;">
+                    <div class="lifestyle-im-1">
+                        <img src="/assets/images/lifestyle/costume-lifestyle-1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-5 lifestyle-card">
+                    <div class="lifestyle-txt-1">
+                        <p class="lifestyle-number" id="num11">01.</p><br>
+                        <p class="lifestyle-tiret" id="tiret11">_</p>
+                        <p class="lifestyle-texte">The world of fashion is made of trends and it’s our job to make sure the true you is always reflected.</p>
+                    </div>
+                </div>
+            </div>
+            <!--deuxième costume-->
+            <div class="row" id="lifestyle-two">
+                <div class="col-md-5 carte">
+                    <div class="lifestyle-txt-2">
+                        <p class="lifestyle-number" id="numsec">02.</p><br>
+                        <p class="lifestyle-tiret" id="tiret">_</p>
+                        <p class="lifestyle-texte" id="texte22">At Sastré, we focus on your individuality when blending styles, fabrics and lines to compliment your sartorial style.</p>
+                    </div>
+                </div>
+                <div class="col-md-7 costume">
+                    <img src="/assets/images/lifestyle/costume-lifestyle-2.jpg" alt="">
+                </div>
+            </div>
+            <!--troisième costume-->
+            <div class="row" id="lifestyle-one">
+                <div class="col-md-7" style="margin: 0;padding: 0;">
+                    <div class="lifestyle-im-1">
+                        <img src="/assets/images/lifestyle/costume-lifestyle-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-5 lifestyle-card">
+                    <div class="lifestyle-txt-1">
+                        <p class="lifestyle-number" id="num33">03.</p><br>
+                        <p class="lifestyle-tiret" id="tiret33">_</p>
+                        <p class="lifestyle-texte" id="texte33">We are inspired by you! Sastré lends its savoire-faire and knowledge of modern elegance to provide you with a twist on contemporary trends to reflect your one-of-a- kind style.</p>
+                    </div>
+                </div>
+            </div>
+            <!--quatrième costume-->
+            <div class="row" id="lifestyle-two">
+                <div class="col-md-5 carte">
+                    <div class="lifestyle-txt-2">
+                        <p class="lifestyle-number">04.</p><br>
+                        <p class="lifestyle-tiret">_</p>
+                        <p class="lifestyle-texte">In our quest, rest assured that you are always at the forefront of everything we do, even when dealing with the most intricate parts of garment creation.</p>
+                    </div>
+                </div>
+                <div class="col-md-7 costume">
+                    <img src="/assets/images/lifestyle/costume-lifestyle-4.jpg" alt="">
+                </div>
+            </div>
+
+            <!--séparations-->
+            <div class="block-space"></div>
+            <div class="block-space"></div>
+
+            <div class="row" id="the4divs">
+                <div class="col-md-3 homeMadeThumb">
+                    <img src="/assets/images/lifestyle/multi-image-lifestyle-5.jpg" alt="">
+                </div>
+                <div class="col-md-3 homeMadeThumb">
+                    <img src="/assets/images/lifestyle/multi-image-lifestyle-6.jpg" alt="">
+                </div>
+                <div class="col-md-3 homeMadeThumb">
+                    <img src="/assets/images/lifestyle/multi-image-lifestyle-7.jpg" alt="">
+                </div>
+                <div class="col-md-3 homeMadeThumb">
+                    <img src="/assets/images/lifestyle/multi-image-lifestyle-8.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="/assets/js/navbar.js"></script>
+        <script src="/node_modules/animate/index.js"></script>
+        <script src="/assets/js/btnfoot.js"></script>
+    </body>
+    <footer>
+        <div class="footer-content2">
+            <span id="social-media2">
+                <a href="https://www.instagram.com/sastrelondon/"><img style="width: 100px;height: 80px;" src="/assets/images/gifs/insta.gif" alt=""></a>
+                <br><a href="https://www.instagram.com/sastrelondon/">Follow us on Instagram</a>
+            </span>
+            <span id="rights2">
+                <strong>SASTRÉLONDON</strong> all rights reserved.
+            </span>
+            <span id="madeby2">
+                Websmaster : <a href="https://www.noonxpand.tech/engversion.html"> noonxpand.tech</a>
+            </span>
+        </div>
+        <div class="getbacktop">
+            <button class="btn">
+                <img class="heartBeat" src="/node_modules/bootstrap-icons/icons/chevron-up.svg" alt=""><br>
+                go back up
+            </button>
+        </div>
+    </footer>
+</html>

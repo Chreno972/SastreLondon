@@ -1,0 +1,394 @@
+
+/* 640*1024 */
+@media screen and (min-width: 895px) and (max-width: 1500px)
+{
+    /* home */
+    .imonehome, .imonehome2
+    {
+        width: 100%;
+        height: auto!important;
+        padding: 35% 0;
+        display: flex!important;
+        align-items: center;
+        justify-content: center;
+    }
+    .imonehome3
+    {
+        width: 100%;
+        height: auto!important;
+        padding: 35% 0;
+        display: flex!important;
+        align-items: center;
+        justify-content: center;
+        margin-top: -250px!important;
+    }
+    h2.serv-h2-home
+    {
+        width: 100%;
+        padding: 0 0 0 20px;
+        margin:-250px auto -37px auto;
+    }
+
+    /* services */
+    
+    #second-service-image-one
+    {
+        width: 100%!important;
+    }
+    #second-service-image-one img
+    {
+        width: 100%!important;
+        height: auto!important;
+    }
+    #second-service-image-two
+    {
+        width: 100%!important;
+    }
+    #second-service-image-two img
+    {
+        width: 100%!important;
+        height: auto!important;
+    }
+    #second-service-image-text-text 
+    {
+        padding: 0 17px 0 0;
+    }
+    #second-service-image-text-text p
+    {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+
+    #measuring
+    {
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin-bottom: 50px;
+    }
+    div.block-space
+    {
+        padding: 0;
+        height: 30px;
+    }
+    #franc-measuring
+    {
+        display: flex;
+        padding: 0;
+    }
+    #franc-measuring img
+    {
+        width: 100%;
+        height: auto;
+    }
+    #franc-measuring-text
+    {
+        display: flex;
+        flex-basis: 2;
+        align-items: center;
+        text-align: justify;
+        margin: 0;
+        padding: 0;
+    }
+    #franc-measuring-text img
+    {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .nota-bene-service2
+    {
+        font-size: 12px;
+        line-height: 1.6em;
+        z-index: 2;
+    }
+
+    .fourth-service-image-text
+    {
+        margin-bottom: 50px;
+    }
+    #franc-measuring-text2
+    {
+        padding: 0;
+    }
+    .fitfont2
+    {
+        z-index: 1;
+        width: 100%;
+        height: auto;
+        margin-bottom: -50px;
+    }
+    #franc-measuring2
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    #franc-measuring2 img
+    {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .fifth-service-image-text
+    {
+        margin-bottom: 50px;
+    }
+    #franc-measuring3 img
+    {
+        width: 100%;
+        height: auto;
+    }
+    #franc-measuring-text3
+    {
+        padding: 0;
+    }
+    #franc-measuring-text3 img
+    {
+        margin-bottom: -50px;
+    }
+
+
+    div.begin-journey-service
+    {
+        width: 100%;
+        height: auto;
+        background-size: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .subtitle-begin-journey
+    {
+        text-shadow: 2px 2px 2px #222222;
+    }
+
+    #inner-text.row
+    {
+        margin-bottom: 10%;
+    }
+    button.bookit:hover
+    {
+        background: rgba(255, 255, 255, 0.26);
+        box-shadow: 2px 2px 2px #222222;
+    }
+    button.bookit a
+    {
+        text-shadow: 2px 2px 2px #222222;
+    }
+    .row.inner-franc
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+
+
+
+
+    .about-franc 
+    {
+        margin-bottom: 50px;
+    }
+    .abf
+    {
+        width: 100%;
+        height: auto;
+    }
+    .about-franc-image img
+    {
+        width: 100%;
+        height: auto;
+        margin: 0 15px;
+    }
+    .imagegalere
+    {
+        width: 100%;
+        height: auto;
+    }
+    .abm
+    {
+        width: 100%;
+        height: auto;
+    }
+    .about-franc-titre
+    {
+        width: 100%;
+        height: auto;
+    }
+    .about-franc-text-texte
+    {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+
+    /* lifestyle */
+    #allServicePage
+    {
+        width: 100%;
+        height: auto;
+
+    }
+    #lifestyle-one.row, #lifestyle-two.row
+    {
+        width: 100%;
+        height: auto;
+        padding: 0!important;
+        margin: 0 auto 50px auto;
+    }
+    #lifestyle-one.row img, #lifestyle-two.row img, .col-md-7.costume
+    {
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .col-md-5.lifestyle-card
+    {
+        margin-left: -55px;
+        padding: 0;
+        text-align: justify;
+        display: flex;
+        flex: 1!important;
+        max-width: 100%;
+    }
+    .col-md-5.carte
+    {
+        flex: 1;
+        max-width: 100%;
+        margin-right: -60px!important;
+        z-index: 2;
+        text-align: left;
+        padding: 65px 50px 90px 55px!important;
+
+    }
+    .lifestyle-txt-1 
+    {
+        width: auto;
+    }
+    .lifestyle-txt-2 {
+        margin: 0 10px 50px 0
+    }
+    .lifestyle-number {
+        font-weight: normal;
+    }
+    #numsec.lifestyle-number {
+        margin: 0;
+    }
+    .row#the4divs
+    {
+        width: 100%;
+        display: flex!important;
+        justify-content: space-evenly;
+        margin: 0 auto 10px auto!important;
+    }
+    .col-md-3.homeMadeThumb img
+    {
+        width: 100%;
+        height: auto;
+        padding-left: 3px!important;
+    }
+    div.block-space
+    {
+        display: none;
+    }
+    /* book */
+
+    #separator-left-right
+    {
+        display: none;
+    }
+    section#pageContent
+    {
+        width: 100%;
+        height: auto;
+    }
+    #firstRow
+    {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        height: auto;
+    }
+    .messent
+    {
+        width: 100%;
+        height: 100px;
+        margin: 0 auto;
+        text-align: center;
+        height: 50px;
+    }
+    #costumeBook
+    {
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+    }
+    #costumeBook img
+    {
+        width: 100%;
+        height: auto;
+    }
+    .write-left
+    {
+        margin: 0;
+    }
+    .getInTouchWord
+    {
+        width: 100%;
+        padding: 0;
+    }
+    .getInTouchWord2 
+    {
+        padding: 0;
+    }
+    .getInTouchWord2 img 
+    {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #costumeTextBook.col-lg-4.col-md-12
+    {
+        flex:0;
+        display: block;
+        max-width: 100%!important;
+        padding: 0;
+    }
+    .write-left-right
+    {
+        width: 100%;
+        padding: 0;
+    }
+    #secondRow
+    {
+        width: 100%;
+    }
+    /* footer */
+    .footer-home-content
+    {
+        padding: 0;
+        height: auto;
+    }
+    .footer-content
+    {
+        margin-bottom: 70px;
+    }
+    .footer-content2
+    {
+        margin-bottom: 60px;
+    }
+    .footer-content3
+    {
+        margin-bottom: 70px;
+    }
+    button.btn 
+    {
+        margin: -90px auto 20px auto;
+    }
+}

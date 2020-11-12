@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&display=swap&subset=vietnamese');
+
+body
+{
+    overflow-x: none;
+}
+.container-fluid
+{
+  padding: 0px!important;
+}
+div.inner-responsive-smart
+{
+    visibility: hidden;
+}
+header.header-top 
+{
+  height: 133px;
+}
+.Header-inner-top
+{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 133px;
+    padding: 10px 29px;
+}
+.Header-nav-inner
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 230px;
+    height: 27px;
+}
+.Header-branding
+{
+    width: 122px;
+    height: 70px;
+}
+.Header-nav-item
+{
+    padding: 7px 0px;
+    text-transform: uppercase;
+}
+a.Header-nav-item
+{
+    color: #222222;
+    font-size: 12px;
+    font-family: 'Dosis';
+    text-decoration: none;
+    list-style-type: none;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-style: normal;
+}
+a.Header-nav-item:hover
+{
+    color: #22222254;
+    text-decoration: none;
+}
+/* Common button styles */
+  
+  /* Round button */
+  .round-button {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    visibility: hidden;
+}
+  .contenu-bouton-responsive
+  {
+      max-width: 760px!important;
+      height: 1200px;
+      background: rgb(33, 33, 33);
+      visibility: hidden;
+      z-index: 3;
+  }
+  
+@media screen and (max-width: 640px) {
+  img.Header-branding-logo
+  {
+    position: relative;
+    bottom: 30px;
+    width: 56px;
+    height: 32px;
+    margin: 0px 0px 0px 20px;
+  }
+  div.top-center
+  {
+    width: 210.5px;
+    height: 48.2px;
+  }
+  .contenu-bouton-responsive
+  {
+    visibility: visible;
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+  .round-button {
+    visibility: visible;
+    position: absolute;
+    bottom: 90%;
+    left: 90%;
+    right: -2%;
+  }
+  div#hamburger-sidebar
+  {
+    width: 100%;
+  }
+  .Header-nav-inner
+  {
+    visibility: hidden;
+  }
+  .Header-inner-top
+  {
+    display: initial;
+  }
+  /* le corps du menu à afficher en responsive */
+  div#hamburger-sidebar-body
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    z-index: 3;
+    width: 100%;
+    padding: 36px;
+    overflow: auto;
+  }
+  /* les liens de la navbar repris dans le burger menu */
+  div#hamburger-sidebar-body a
+  {
+    font-size: 14px;
+    width: 140px;
+    height: 50px;
+    text-transform: capitalize;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 50px!important;
+    padding: 15px 18px;
+    margin: -8px 0px 25px 0px;
+    background-size: 200px;
+  }
+  div#hamburger-sidebar-body a:hover
+  {
+    box-shadow: 2px 2px 2px 2px white;
+    text-decoration: none;
+  }
+  .round-button
+  {
+    z-index: 2;
+    position: absolute;
+    top: 4px;
+    left: 86%;
+    width: 0;
+    height: 0;
+    border: none;
+    background: transparent;
+    box-decoration-break: unset;
+    -webkit-box-decoration-break: unset;
+}
+  #hamburger-overlay p
+  {
+    border: 2px solid white;
+    color: white;
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 50px;
+    z-index: 4;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+}

@@ -1,0 +1,221 @@
+/* LIFESTYLE PAGE */
+
+.sastre-logo
+{
+    font-size: 30px;
+    text-decoration: none;
+    list-style-type: none;
+    color: #222;
+    line-height: 1rem;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: none;
+    text-align: center;
+    text-shadow: rgba(87, 75, 50, 0.671);
+    align-items: 10px auto 20px auto;
+}
+.sastre-logo:hover
+{
+    font-size: 30px;
+    color: rgba(34, 34, 34, 0.473);
+    text-transform: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+.london-logo
+{
+    font-size: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    color: #222;
+    line-height: 1rem;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: none;
+    text-align: center;
+    text-shadow: rgba(87, 75, 50, 0.671);
+    margin: 5px auto 0 auto;
+}
+.london-logo:hover
+{
+    font-size: 10px;
+    color: rgba(34, 34, 34, 0.473);
+    text-transform: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/*the page container*/
+#allServicePage
+{
+    width: 100%;
+    height: auto;
+    padding: 0 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+/*costumes 1 et 3*/
+#lifestyle-one
+{
+    width: 1837px;
+    height: auto;
+    padding: 0 17px 17px 17px;
+}
+.lifestyle-im-1 img
+{
+    width: 1135px;
+    height: 1703px;
+}
+.lifestyle-card
+{
+    background-color: rgba(222, 222, 222, 0.89);
+    width: 80%;
+    height: 317px;
+    margin-top: 3%;
+    padding-left: 10px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    letter-spacing: .06em;
+    line-height: 1.5em;
+    text-transform: none;
+    color: rgba(33,33,33,.94);
+    display: flex;
+    flex-direction: column;
+}
+.lifestyle-txt-1
+{
+    
+    width: 558px;
+    height: 136px;
+    font-weight: 200;
+    font-style: normal;
+    letter-spacing: .06em;
+    line-height: 1.5em;
+    text-transform: none;
+    color: rgba(33,33,33,.94);
+    display: flex;
+    flex-direction: column;
+    margin-top: 17%;
+    margin-left: 12%;
+    justify-content: center;
+    text-align: left;
+}
+.lifestyle-number
+{
+    font-size: 46px;
+    color: black;
+}
+.lifestyle-tiret
+{
+    color: rgba(34, 34, 34, 0.671);
+}
+.lifestyle-texte
+{
+    color:#222222;
+    font-size: 16px;
+    font-family: 'Dosis', sans-serif;
+}
+/*costumes 2 et 4*/
+#lifestyle-two
+{
+    width: 1837px;
+    height: auto;
+    padding: 17px;
+    display: inline-flex;
+}
+div.col-md-5.carte
+{
+    width: 80%;
+    height: 340px;
+    background-color: rgba(222, 222, 222, 0.89);
+    margin: 54px 0px 0px 0px;
+    padding: 90px;
+    z-index: 2;
+}
+.costume img
+{
+    width: 1135px;
+    height: 1703px;
+    margin-left: -100px;
+    z-index: 1;
+}
+.lifestyle-txt-2
+{
+    margin: 0 50px 50px 0;
+    font-family: 'Dosis', sans-serif;
+}
+/* Les 4 Divs */
+#the4divs
+{
+    width: 100%;
+    margin: 0;
+}
+.homeMadeThumb img
+{
+    width: 425px;
+    height: 635px;
+}
+.homeMadeThumb
+{
+    padding: 0!important;
+    display: flex;
+    justify-content: flex-end;
+}
+footer
+{
+    width: 100%;
+    height: 200px;
+    color: #2222227a;
+    font-family: 'Dosis';
+    display: flex;
+    justify-content: center;
+}
+.footer-content2
+{
+    width:inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #222;
+    margin: 0 auto;
+}
+#rights2
+{
+    margin: 35px 30px 0 30px;
+}
+#madeby2
+{
+    margin: 35px 30px 0 30px;
+}
+#madeby2 a
+{
+    color: #222;
+    text-decoration: none;
+}
+#social-media2
+{ 
+    margin: 0 30px 46px 30px;
+    text-align: center;
+}
+#social-media2 a
+{ 
+    color: #222;
+    text-decoration: none;
+}
+#social-media2 img
+{ 
+    margin: 0 10px;
+}
+.go-up
+{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: white;
+    border-radius: 5px 0 5px 0;
+}
