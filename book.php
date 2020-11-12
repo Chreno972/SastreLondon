@@ -97,14 +97,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="../assets/css/style.css">
-        <link rel="stylesheet" href="../assets/css/book.css">
-        <link rel="stylesheet" href="../assets/css/responsive-tablettes.css">
-        <link rel="stylesheet" href="../assets/css/responsive-smartphones.css">
-        <link rel="stylesheet" href="../assets/css/responsive-laptop-padpro.css">
-        <link rel="stylesheet" href="../assets/css/reset.css">
-        <link rel="stylesheet" href="../assets/css/navbar.css">
-        <link rel="stylesheet" href="../node_modules/animate.css/animate.min.css">
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="stylesheet" href="/assets/css/book.css">
+        <link rel="stylesheet" href="/assets/css/responsive-tablettes.css">
+        <link rel="stylesheet" href="/assets/css/responsive-smartphones.css">
+        <link rel="stylesheet" href="/assets/css/responsive-laptop-padpro.css">
+        <link rel="stylesheet" href="/assets/css/reset.css">
+        <link rel="stylesheet" href="/assets/css/navbar.css">
+        <link rel="stylesheet" href="/node_modules/animate.css/animate.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
         <title>Sastre London - Book Now</title>
@@ -116,8 +116,8 @@
                     <div class="hamburger-content">
                         <nav class="Header-nav-primary">       
                             <div class="Header-nav-inner">
-                                <a href="../index.html" class="Header-nav-item">Home</a>
-                                <a href="../service-page/service.html" class="Header-nav-item" data-test="template-nav">Our Service</a>
+                                <a href="/index.html" class="Header-nav-item">Home</a>
+                                <a href="/service-page/service.html" class="Header-nav-item" data-test="template-nav">Our Service</a>
                             </div>
                         </nav>
                     </div>
@@ -130,10 +130,10 @@
                     <div class="hamburger-content">
                         <nav class="Header-nav-secondary">  
                             <div class="Header-nav-inner">
-                                <a href="../lifestyle-page/lifestyle.html" class="Header-nav-item" alt="nav-item">
+                                <a href="/lifestyle-page/lifestyle.html" class="Header-nav-item" alt="nav-item">
                                     Lifestyle
                                 </a>
-                                <a href="./book.php" class="Header-nav-item" alt="nav-item">
+                                <a href="/book.php" class="Header-nav-item" alt="nav-item">
                                     Book Now
                                 </a>
                             </div>
@@ -142,7 +142,7 @@
                 </div>
                 
                     <!--le bouton hamburger avec son entité html-->
-                    <span class="round-button" id="toggle-button"> <h2>...</h2></span>
+                    <span class="round-button" id="toggle-button"> <h2>.</h2></span>
                 <div class="contenu-bouton-responsive">
                     <!--le menu qui se dépliera à partir du côté que l'on nomme sidebar-->
                     <div id="hamburger-sidebar">
@@ -228,7 +228,7 @@
                         </div>
                         <div class="form-group">
                             <label class="labels" for="Phone">Phone</label>
-                            <input class="form-control" title="example : +446663..." name="Phone" type="tel" id="tel-input-help" required pattern="[+]{1}[0-9]{8,}">
+                            <input class="form-control" title="example : +446663." name="Phone" type="tel" id="tel-input-help" required pattern="[+]{1}[0-9]{8,}">
                             <span class="error-message" name="error"><?php echo $pnerror ?></span>
                         </div>
                         <div class="form-group">
