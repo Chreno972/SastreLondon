@@ -42,9 +42,11 @@
         }
         else {
             $messent = '
-            <div id="messent-container">
-                <p class="messent"><?php $messent > Thank you for your message,'. ' ' . htmlentities(strtolower($fname)) . ' ' . 'we will contact you soon. have a nice day ! </p>
-                <img src="./assets/images/gifs/undraw_approve_qwp7.svg" alt="approval image">
+            <div class="black-mirror">
+                <div id="messent-container">
+                    <p class="messent"><?php $messent > Thank you for your message,'. ' ' . htmlentities(strtolower($fname)) . ' ' . 'we will contact you soon. have a nice day ! </p>
+                    <img src="./assets/images/gifs/undraw_approve_qwp7.svg" alt="approval image">
+                </div>
             </div>
             ';
         }
@@ -91,20 +93,21 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="shortcut icon" type="image/x-icon" href="./assets/images/gifs/sastre-written-icon.png" />
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="/assets/css/style.css">
-        <link rel="stylesheet" href="/assets/css/book.css">
-        <link rel="stylesheet" href="/assets/css/responsive-tablettes.css">
-        <link rel="stylesheet" href="/assets/css/responsive-smartphones.css">
-        <link rel="stylesheet" href="/assets/css/responsive-laptop-padpro.css">
-        <link rel="stylesheet" href="/assets/css/reset.css">
-        <link rel="stylesheet" href="/assets/css/navbar.css">
-        <link rel="stylesheet" href="/node_modules/animate.css/animate.min.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="stylesheet" href="../assets/css/book.css">
+        <link rel="stylesheet" href="../assets/css/responsive-tablettes.css">
+        <link rel="stylesheet" href="../assets/css/responsive-smartphones.css">
+        <link rel="stylesheet" href="../assets/css/responsive-laptop-padpro.css">
+        <link rel="stylesheet" href="../assets/css/reset.css">
+        <link rel="stylesheet" href="../assets/css/navbar.css">
+        <link rel="stylesheet" href="../node_modules/animate.css/animate.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
-        <title>Sastre London - Now, let's book an appointment</title>
+        <title>Sastre London - Book Now</title>
     </head>
     <body>
         <div class="container-fluid">
@@ -113,8 +116,8 @@
                     <div class="hamburger-content">
                         <nav class="Header-nav-primary">       
                             <div class="Header-nav-inner">
-                                <a href="index.html" class="Header-nav-item">Home</a>
-                                <a href="service.html" class="Header-nav-item" data-test="template-nav">Our Service</a>
+                                <a href="../index.html" class="Header-nav-item">Home</a>
+                                <a href="../service-page/service.html" class="Header-nav-item" data-test="template-nav">Our Service</a>
                             </div>
                         </nav>
                     </div>
@@ -127,10 +130,10 @@
                     <div class="hamburger-content">
                         <nav class="Header-nav-secondary">  
                             <div class="Header-nav-inner">
-                                <a href="lifestyle.html" class="Header-nav-item" alt="nav-item">
+                                <a href="../lifestyle-page/lifestyle.html" class="Header-nav-item" alt="nav-item">
                                     Lifestyle
                                 </a>
-                                <a href="book.php" class="Header-nav-item" alt="nav-item">
+                                <a href="./book.php" class="Header-nav-item" alt="nav-item">
                                     Book Now
                                 </a>
                             </div>
@@ -242,7 +245,6 @@
         <script src="/node_modules/jquery/dist/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <script src="/assets/js/calendar.js"></script>
         <script src="/assets/js/navbar.js"></script>
         <script src="/node_modules/animate/index.js"></script>
         <script src="/assets/js/btnfoot.js"></script>

@@ -1,8 +1,16 @@
 /* messent=#00BFA6 */
 
+.black-mirror {
+    position: absolute;
+    width: 100%;
+    height: 2000px;
+    background: rgba(34, 34, 34, 0.527);
+    z-index: 8;
+}
 #messent-container {
     width: 50%;
     height: 600px;
+    margin-top: -30px;
     padding: 30px;
     border: none;
     border-radius: 15px;
@@ -23,6 +31,7 @@
 }
 .messent {
     color: #00BFA6;
+    font-size: 18px;
     justify-self: flex-start;
 }
 .sastre-logo

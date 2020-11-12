@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Allow: /sitemap.xml
-Sitemap: https://sastrelondon.netlify.app/sitemap.xml
+Sitemap: https://www.sastrelondon.com/sitemap.xml
