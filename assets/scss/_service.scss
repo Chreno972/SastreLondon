@@ -1,0 +1,342 @@
+/* SERVICE PAGE */
+
+.sastre-logo
+{
+    font-size: 30px;
+    text-decoration: none;
+    list-style-type: none;
+    color: #222;
+    line-height: 1rem;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: none;
+    text-align: center;
+    text-shadow: rgba(87, 75, 50, 0.671);
+    align-items: 10px auto 20px auto;
+    :hover {
+        font-size: 30px;
+        color: rgba(34, 34, 34, 0.473);
+        text-transform: none;
+        text-decoration: none;
+        list-style-type: none;
+    }
+}
+.london-logo
+{
+    font-size: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    color: #222;
+    line-height: 1rem;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: none;
+    text-align: center;
+    text-shadow: rgba(87, 75, 50, 0.671);
+    margin: 5px auto 0 auto;
+    :hover {
+        font-size: 10px;
+        color: rgba(34, 34, 34, 0.473);
+        text-transform: none;
+        text-decoration: none;
+        list-style-type: none;
+    }
+}
+/*the page container*/
+#allServicePage
+{
+    width: 100%;
+    height: auto;
+    padding: 0 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+
+    .top-service-image-text {
+        width: 100%;
+        height: 808px;
+        background-image: url('/assets/images/service/shirt-button-service-1.jpg');
+        image-resolution: 2500w;
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center!important;
+        justify-content: center!important;
+        display: flex;
+        .title-style-service {
+            width: 1262px;
+            height: 169px;
+            display: flex;
+            align-items: center;
+            margin: 0 auto;
+            flex-direction: column;
+            justify-self: center;
+            .title {
+                font-size: 74px;
+                font-family: 'Dosis', sans-serif;
+                color: white;
+                letter-spacing: .15em;
+                line-height: 1.5em;
+                font-weight: 200px;
+                font-style: normal;
+            }
+            .subtitle {
+                font-size: 38px;
+                font-family: 'Dosis', sans-serif;
+                color: white;
+                font-style: normal;
+                letter-spacing: .15em;
+            }
+        }
+    }
+
+    .second-service-image-text {
+        margin-top: 25px;
+        font-family: 'Dosis', sans-serif;
+        div.row.imonetwto {
+            #second-service-image-one, #second-service-image-two {
+                padding: 17px;
+                img {
+                    width: 731px!important;
+                    height: 1097px!important;
+                }
+            }
+            #second-service-image-text-text {
+                font-size: 10px;
+                letter-spacing: .15em;
+                line-height: 1.5em;
+                p {
+                    margin-top: 17px;
+                    font-size: 16px;
+                    color: #222222;
+                }
+            }
+        }
+    }
+
+    .third-service-image-text {
+        #measuring {
+            #franc-measuring {
+                img {
+                    width: 1190px;
+                    height: 690px;
+                    padding: 17px;
+                }
+            }
+            #franc-measuring-text {
+                display: flex;
+                flex-direction: column;
+                font-family: 'Dosis', sans-serif;
+                font-size: 10px;
+                letter-spacing: .15em;
+                line-height: 1.5em;
+                margin-top: 15px;
+                .fitfont { 
+                    img {
+                        margin-right: 17px;
+                        width:612px;
+                        height:246px;
+                        padding: 17px;
+                    }
+                }
+                .nota-bene-service2 {
+                    color: #222222;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .fourth-service-image-text {
+        .row {
+            #franc-measuring-text2 {
+                display: flex;
+                flex-direction: column;
+                font-family: 'Dosis', sans-serif;
+                font-size: 10px;
+                letter-spacing: .15em;
+                line-height: 1.5em;
+                align-items: center;
+                text-align: justify;
+                .fitfont2 { 
+                    img {
+                        margin-top: 10px;
+                        width:100%;
+                        height:327px;
+                    }
+                }
+                .nota-bene-service2 {
+                    color: #222222;
+                    font-size: 16px;
+                }
+            }
+            #franc-measuring2 {
+                img {
+                    width: 100%;
+                    height: 1604px;
+                }
+            }
+        }
+    }
+
+    .fifth-service-image-text {
+        .row {
+            #franc-measuring3 {
+                img {
+                    width: 100%;
+                    height: 1787px;
+                }
+            }
+            #franc-measuring-text3 {
+                display: flex;
+                flex-direction: column;
+                font-family: 'Dosis', sans-serif;
+                font-size: 10px;
+                letter-spacing: .15em;
+                line-height: 1.5em;
+                align-items: center;
+                text-align: justify;
+                .fitfont3 {
+                    img {
+                        margin-top: 10px;
+                        width:100%;
+                        height:327px;
+                    }
+                }
+                .nota-bene-service2 {
+                    color: #222222;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+    
+
+/* seventh-image-text */
+.begin-journey-service
+{
+    width: 100%;
+    height: 886px;
+    background-image: url('/assets/images/service/costume-cravate-large-service-7.jpg');
+    image-resolution: 2500w;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center!important;
+    justify-content: center!important;
+    display: flex;
+    #inner-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        .subtitle-begin-journey {
+            font-size: 36px;
+            color: #fff;
+            margin-bottom: 40px;
+            margin-top: 20px;
+            font-family: 'Dosis', sans-serif;
+        }
+        .btn-title-begin-journey {
+            button {
+                background-color: transparent;
+                border: 2px solid #fff;
+                width: 502px;
+                height: 113px;
+                margin-top: 30px;
+                a {
+                    text-decoration: none;
+                    list-style-type: none;
+                    color: white;
+                    font-family: 'Dosis', sans-serif;
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+
+    .about-franc
+    {
+        margin: 0;
+        .row.inner-franc {
+            .abf {
+                display: flex;
+                align-items: flex-start;
+                .about-franc-text {
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    padding-top: 150px;
+                    .about-franc-titre {
+                        margin: auto!important;
+                        img {
+                            width: 425px;
+                            height: 298px;
+                        }
+                    }
+                    .about-franc-text-texte
+                    {
+                        font-size: 16px;
+                        text-align: justify;
+                        padding-top: 50px;
+                    }
+                }
+            }
+            .abm {
+                display: flex;
+                justify-content: flex-end;
+                padding: 0!important;
+            }
+        }
+    }
+
+    .block-space {
+        height: 68px;
+        padding: 17px;
+    }
+}
+
+/* about franc */
+    
+footer {
+    width: 100%;
+    height: 200px;
+    color: #2222227a;
+    font-family: 'Dosis';
+    display: flex;
+    justify-content: center;
+    .footer-content {
+        width:inherit;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #222;
+        margin-top: 20px;
+        #social-media { 
+            margin: 0 30px 46px 30px;
+            text-align: center;
+            a { 
+                color: #222;
+                text-decoration: none;
+                img { 
+                    margin: 0 10px;
+                }
+            }
+        }
+        #rights {
+            margin: 35px 30px 0 30px;
+        }
+        #madeby {
+            margin: 35px 30px 0 30px;
+            a {
+                color: #222;
+                text-decoration: none;
+            }
+        }
+    }
+}
