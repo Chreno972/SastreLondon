@@ -94,10 +94,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="shortcut icon" type="image/x-icon" href="./assets/images/gifs/sastre-written-icon.png" />
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Sastre London - Book an appointment with our tailoring experts</title>
+        <meta name="title" content="Sastre London - Book an appointment with our tailoring experts">
+        <meta name="description" content="make an appointment with our experts - decide together on the quality of the textile - develop your sartorial intelligence as an attractive gentleman">
+        <link rel="shortcut icon" type="image/x-icon" href="./assets/images/gifs/sastre-written-icon.png" />
         <link rel="stylesheet" href="/assets/css/style.css">
         <link rel="stylesheet" href="/assets/css/book.css">
         <link rel="stylesheet" href="/assets/css/responsive-tablettes.css">
@@ -108,7 +112,6 @@
         <link rel="stylesheet" href="/node_modules/animate.css/animate.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
-        <title>Sastre London - Book Now</title>
     </head>
     <body>
         <div class="container-fluid">
