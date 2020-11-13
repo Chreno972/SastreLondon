@@ -46,6 +46,7 @@
                 <div id="messent-container">
                     <p class="messent"><?php $messent > Thank you for your message,'. ' ' . htmlentities(strtolower($fname)) . ' ' . 'we will contact you soon. have a nice day ! </p>
                     <img src="./assets/images/gifs/undraw_approve_qwp7.svg" alt="approval image">
+                    <button type="button" class="btn btn-dark"><a href="./index.html">OK</a></button>
                 </div>
             </div>
             ';
@@ -86,7 +87,7 @@
         $mail->send();
     } 
     catch (Exception $e) {
-        echo "Message could not be sent. Mailer Error: {" . $mail->ErrorInfo . "}";
+        // echo "Message could not be sent. Mailer Error: {" . $mail->ErrorInfo . "}";
     }  
 };
 ?>

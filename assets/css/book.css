@@ -2,8 +2,11 @@
 
 .black-mirror {
     position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     width: 100%;
-    height: 2000px;
+    height: 2300px;
     background: rgba(34, 34, 34, 0.527);
     z-index: 8;
 }
@@ -29,10 +32,41 @@
     width: 300px;
     height: auto;
 }
+#messent-container button {
+    color: white;
+}
+#messent-container button a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+#messent-container button a:hover {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+#messent-container button a:focus {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
 .messent {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
     color: #00BFA6;
     font-size: 18px;
     justify-self: flex-start;
+}
+.error-message
+{
+    display: flex;
+    justify-self: center;
+    width: inherit;
+    color: crimson;
+    text-shadow: 1px 1px 1px #222;
+    text-align: center;
+    margin: 1% 40%;
 }
 .sastre-logo
 {
