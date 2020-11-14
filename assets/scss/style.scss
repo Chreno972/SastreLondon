@@ -1,7 +1,6 @@
 // IMPORTS
 @import url('https://fonts.googleapis.com/css?family=Allura|Arima+Madurai|Caveat|Cedarville+Cursive|Cookie|Courgette|Dosis|EB+Garamond|Lobster|Lobster+Two|Marck+Script|Pacifico|Parisienne|Playball|Quattrocento|Quicksand|Rakkas|Sacramento|Satisfy|Scope+One|Shadows+Into+Light|Sulphur+Point|Vesper+Libre|Work+Sans|Yatra+One&display=swap');
 
-
 // GENERAL
 *
 {
@@ -93,7 +92,7 @@ a.Header-branding
     background-repeat: no-repeat;
     background-size: cover;
     padding: 188px 50px;
-    margin: 50px 0 0 0!important;
+    margin: 50px 0 0 0;
     background-position-x: center;
     background-position-y: 0;
     z-index: 1;
@@ -164,8 +163,7 @@ h2.serv-h2-home
     position: relative;
 }
 
-
-// FOOTER
+/* FOOTER */
 
 footer {
     width: 100%;
@@ -232,3 +230,7 @@ footer {
         }
     }
 }
+
+/************************************************************************************************************/
+/************************************************************************************************************/
+/* RESPONSIVE SMARTPHONES */

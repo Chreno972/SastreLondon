@@ -77,7 +77,7 @@ a.Header-nav-item:hover
       z-index: 3;
   }
   
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
   img.Header-branding-logo
   {
     position: relative;
@@ -115,7 +115,7 @@ a.Header-nav-item:hover
   }
   .Header-inner-top
   {
-    display: initial;
+    display: inherit;
   }
   /* le corps du menu à afficher en responsive */
   div#hamburger-sidebar-body
