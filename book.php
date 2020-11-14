@@ -94,6 +94,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="canonical" href="http://www.sastrelondon.com/book.php">
         <meta charset="UTF-8">
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">

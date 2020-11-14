@@ -2,4 +2,5 @@ SetEnv PHP_VER 5_3
 SetEnv REGISTER_GLOBALS 0
 RewriteEngine On
 RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://www.sastrelondon.com/$1 [R,L]
+RewriteCond %{HTTP_HOST} ^www\.sastrelondon\.com$
+RewriteRule ^/?$ "http\:\/\/sastrelondon\.com\/" [R=301,L]
