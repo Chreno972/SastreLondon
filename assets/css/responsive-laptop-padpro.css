@@ -1,7 +1,35 @@
 
 /* 640*1024 */
-@media screen and (min-width: 895px) and (max-width: 1500px)
+@media screen and (min-width: 769px) and (max-width: 1024px)
 {
+
+    .black-mirror {
+        box-sizing: border-box;
+    }
+    .black-mirror #messent-container {
+        width: 96%;
+        height: 600px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        padding: 20px 0 10px 0;
+    }
+    
+    #messent-container .messent {
+        font-size: 20px;
+    }
+    #messent-container img {
+        width : 40%;
+        padding-bottom: 20px;
+        height: auto;
+    }
+
+    #messent-container button {
+        width : 20%;
+        height: 10%;
+        margin-top: 10px;
+    }
+
     /* home */
     .imonehome, .imonehome2
     {

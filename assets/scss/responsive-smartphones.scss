@@ -107,9 +107,9 @@
         }
     }
 
-/********************************************************************************************************/
-/********************************************************************************************************/
-/* SERVICES **********************************************************************************************/
+    /********************************************************************************************************/
+    /********************************************************************************************************/
+    /* SERVICES **********************************************************************************************/
 
     #allServicePage
     {
@@ -119,6 +119,7 @@
         align-items: center;
         font-family: 'Dosis, sans-serif';
         
+        // GENERAL 
         .nota-bene-service2 {
             width: 100%;
             padding: 0;
@@ -126,7 +127,6 @@
             font-size: 14px;
             margin-bottom: 20px; 
         }
-
         div.block-space {
             display: none;
         }
@@ -211,6 +211,7 @@
                 }
             }
         }
+
         .fourth-service-image-text {
             .row {
                 #franc-measuring-text2 {
@@ -234,6 +235,7 @@
                 }
             }
         }
+
         .fifth-service-image-text {
             width: 100%;
             margin: 0 auto;
@@ -260,6 +262,7 @@
                 }
             }
         }
+
         .begin-journey-service {
             width: 100%!important; 
             height: 200px;
@@ -286,6 +289,7 @@
                 }
             }
         }
+
         .about-franc {
             width: 100%;
             margin: 0 auto;
@@ -361,7 +365,7 @@
     /********************************************************************************************************/
     /* LIFESTYLE ********************************************************************************************/
     
-    // LIFE STYLE GENERAL
+    // GENERAL
     .lifestyle-number {
         font-weight: lighter;
     }
@@ -390,118 +394,113 @@
             }
         }
         .lifestyle-card {
-            width: 337.5px!important;
             padding: 0px;
             color: black;
             text-align: justify;
-            margin: -8% 0 10% 20%;
+            margin: -8% 0 10% 10%;
             .lifestyle-txt-1 {
                 width: 90%;
                 text-align: justify;
                 margin: 70px 10px 0 15px;
                 padding-right: 20px;
+                #num11 {
+                    margin-top: 30px;
+                    text-align: right;
+                }
+                #num33 {
+                    margin: 25% 0 0 0;
+                    text-align: right;
+                }
                 #tiret11 {
                     text-align: right;
                 }
-                #texte22 {
-                    margin: 70 10px 0 20px;
-                    padding: 1px 0 0 10px;
+                #tiret33, #text33
+                {
+                    text-align: right;
                 }
             }
         }
     }
-}
 
-
-/* LIFESTYLE */
-@media screen and (max-width: 480px) 
-{
-    
-    
-    #num11
-    {
-        margin-top: 30px;
-    }
-    
-    #lifestyle-two.row
-    {
+    #lifestyle-two {
         width: 100vw;
         padding: 10px;
         display: flex;
         flex-direction: column-reverse;
-    }
-    .costume
-    {
-        width: 100%!important;
-    }
-    .costume img
-    {
-        width: 90%;
-        height: auto;
-        margin: 0 0px 0 0px;
-        padding: 0px 0px 0px 0px;
-        float: right;
-    }
-    div.col-md-7.costume
-    {
-        padding: 0 0 0 1px;
-        height: auto;
-    }
-    #lifestyle-two .carte
-    {
-        width: 328px!important;
-        padding: 0px;
-        color: black;
-        text-align: justify;
-        margin: -30px 0 50px 0;
-        padding: 0 0 0 15px!important;
-    }
-    div.lifestyle-txt-2
-    {
-        margin: 30px 10px 20px 20px!important;
-        padding: 0 15px 0 0;
-        text-align: left;
-    }
-    div.col-md-5.carte
-    {
-        padding: 0!important;
-        height: 317px;
-    }
-    #num33
-    {
-        margin: 25% 0 0 0;
-    }
-    #numsec, #tiret
-    {
-        margin: 0 0 0 20px;
+        .carte {
+            width: 328px!important;
+            padding: 0px;
+            color: black;
+            text-align: justify;
+            margin: -30px 0 50px 0;
+            padding: 0 0 0 15px!important;
+            .lifestyle-txt-2 {
+                margin: 30px 10px 20px 20px!important;
+                padding: 0 15px 0 0;
+                text-align: left;
+                #numsec, #tiret {
+                    margin: 0 0 0 20px;
+                }
+                #texte22 {
+                    margin: 10px 10px 0 0px;
+                    padding: 1px 0 0 10px;
+                }
+            }
+        }
+        .costume {
+            width: 100%!important;
+            padding: 0 0 0 1px;
+            height: auto;
+            img {
+                width: 90%;
+                height: auto;
+                margin: 0 0px 0 0px;
+                padding: 0px 0px 0px 0px;
+                float: right;
+            }
+        }
     }
     #the4divs
     {
         width: 100%;
         margin: 0 auto;
+        .homeMadeThumb {
+            width: 100%;
+            margin: 0 auto!important;
+            display: flex;
+            justify-content: center;
+            img {
+                width: 100%;    
+                height: auto;
+                padding: 0;
+                margin: 0 auto 10px auto;
+            }
+        }
     }
-    .homeMadeThumb
-    {
-        width: 100%;
-        margin: 0 auto!important;
-        display: flex;
-        justify-content: center;
-    }
-    .homeMadeThumb img {
-        width: 100%;    
-        height: auto;
-        padding: 0;
-        margin: 0 auto 10px auto;
-    }
-    #num11, #num33, #tiret33, #text11, #text33
-    {
-        text-align: right;
-    }
+
 }
 
 /* BOOK NOW */
-@media screen and (max-width: 480px) 
-{
+@media screen and (max-width: 480px) {
+
+    // GENERAL
+    .black-mirror {
+        box-sizing: border-box;
+        #messent-container {
+            width: 94%;
+            height: 500px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            .messent {
+                font-size: 12px;
+            }
+            img {
+                width : 80%;
+                height: auto;
+            }
+        }
+    }
     section#pageContent
     {
         padding: 15px;
@@ -717,10 +716,6 @@
         font-size: 12px;
         margin: 0 auto 20px auto;
         float: none;
-    }
-    .messent span
-    {
-        font-size: 14px;
     }
     .getbacktop
     {

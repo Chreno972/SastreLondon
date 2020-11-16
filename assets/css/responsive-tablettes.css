@@ -1,7 +1,7 @@
 
 /* 640*1024 */
-@media screen and (min-width: 641px) and (max-width: 892px)
-{
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    
     /* home */
     /* service */
     #allServicePage
@@ -33,6 +33,31 @@
         width: 100%;
         height: 300px;
     }
+    .black-mirror {
+        box-sizing: border-box;
+    }
+    .black-mirror #messent-container {
+        width: 96%;
+        height: 600px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        padding: 20px 0 15px 0;
+    }
+    
+    #messent-container .messent {
+        font-size: 16px;
+    }
+    #messent-container img {
+        width : 50%;
+        height: auto;
+    }
+
+    #messent-container button {
+        width : 20%;
+        height: 10%;
+    }
+
     .imonetwto
     {
         width: 100%;

@@ -1,0 +1,22 @@
+@media screen and (min-width: 769px) and (max-width: 1024px)
+{
+
+    .black-mirror {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .black-mirror #messent-container {
+        height: 600px;
+        padding: 20px 0 10px 0;
+    }
+    
+    #messent-container .messent {
+        font-size: 20px;
+    }
+    #messent-container img {
+        width : 40%;
+        padding-bottom: 20px;
+        height: auto;
+    }
+}

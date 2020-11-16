@@ -93,186 +93,210 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="canonical" href="http://www.sastrelondon.com/book.php">
-        <meta charset="UTF-8">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Sastre London - Book an appointment with our tailoring experts</title>
-        <meta name="title" content="Sastre London - Book an appointment with our tailoring experts">
-        <meta name="description" content="make an appointment with our experts - decide together on the quality of the textile - develop your sartorial intelligence as an attractive gentleman">
-        <link rel="shortcut icon" type="image/x-icon" href="./assets/images/gifs/sastre-written-icon.png" />
-        <link rel="stylesheet" href="/assets/css/style.css">
-        <link rel="stylesheet" href="/assets/css/book.css">
-        <link rel="stylesheet" href="/assets/css/responsive-tablettes.css">
-        <link rel="stylesheet" href="/assets/css/responsive-smartphones.css">
-        <link rel="stylesheet" href="/assets/css/responsive-laptop-padpro.css">
-        <link rel="stylesheet" href="/assets/css/reset.css">
-        <link rel="stylesheet" href="/assets/css/navbar.css">
-        <link rel="stylesheet" href="/node_modules/animate.css/animate.min.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div class="container-fluid">
-            <header class="header-top">
-                <div class="Header-inner-top">
-                    <div class="hamburger-content">
-                        <nav class="Header-nav-primary">       
-                            <div class="Header-nav-inner">
-                                <a href="/index.html" class="Header-nav-item">Home</a>
-                                <a href="/service-page/service.html" class="Header-nav-item" data-test="template-nav">Our Service</a>
-                            </div>
-                        </nav>
-                    </div>
-                    <div class="top-center">
-                        <a href="index.html" class="Header-branding">
-                            <span class="sastre-logo">SASTRÉ</span>
-                            <span class="london-logo">LONDON</span>
-                        </a>
-                    </div>
-                    <div class="hamburger-content">
-                        <nav class="Header-nav-secondary">  
-                            <div class="Header-nav-inner">
-                                <a href="/lifestyle-page/lifestyle.html" class="Header-nav-item" alt="nav-item">
-                                    Lifestyle
-                                </a>
-                                <a href="/book.php" class="Header-nav-item" alt="nav-item">
-                                    Book Now
-                                </a>
-                            </div>
-                        </nav>
-                    </div>
+<head>
+    <link rel="canonical" href="http://www.sastrelondon.com/book.php">
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sastre London - Book an appointment with our tailoring experts</title>
+    <meta name="title" content="Sastre London - Book an appointment with our tailoring experts">
+    <meta name="description"
+        content="make an appointment with our experts - decide together on the quality of the textile - develop your sartorial intelligence as an attractive gentleman">
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/gifs/sastre-written-icon.png" />
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/book.css">
+    <link rel="stylesheet" href="/assets/css/responsive-tablettes.css">
+    <link rel="stylesheet" href="/assets/css/responsive-smartphones.css">
+    <link rel="stylesheet" href="/assets/css/responsive-laptop-padpro.css">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/navbar.css">
+    <link rel="stylesheet" href="/assets/css/responsive-large-laptop.css">
+    <link rel="stylesheet" href="/node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header class="header-top">
+            <div class="Header-inner-top">
+                <div class="hamburger-content">
+                    <nav class="Header-nav-primary">
+                        <div class="Header-nav-inner">
+                            <a href="/index.html" class="Header-nav-item">Home</a>
+                            <a href="/service-page/service.html" class="Header-nav-item" data-test="template-nav">Our
+                                Service</a>
+                        </div>
+                    </nav>
                 </div>
-                
-                    <!--le bouton hamburger avec son entité html-->
-                    <span class="round-button" id="toggle-button"> <h2>.</h2></span>
-                <div class="contenu-bouton-responsive">
-                    <!--le menu qui se dépliera à partir du côté que l'on nomme sidebar-->
-                    <div id="hamburger-sidebar">
-                        <div id="hamburger-sidebar-body"></div>
-                    </div>
-                    <!--Notre masque qui viendra en fond, nommé overlay
+                <div class="top-center">
+                    <a href="index.html" class="Header-branding">
+                        <span class="sastre-logo">SASTRÉ</span>
+                        <span class="london-logo">LONDON</span>
+                    </a>
+                </div>
+                <div class="hamburger-content">
+                    <nav class="Header-nav-secondary">
+                        <div class="Header-nav-inner">
+                            <a href="/lifestyle-page/lifestyle.html" class="Header-nav-item" alt="nav-item">
+                                Lifestyle
+                            </a>
+                            <a href="/book.php" class="Header-nav-item" alt="nav-item">
+                                Book Now
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+            <!--le bouton hamburger avec son entité html-->
+            <span class="round-button" id="toggle-button">
+                <h2>.</h2>
+            </span>
+            <div class="contenu-bouton-responsive">
+                <!--le menu qui se dépliera à partir du côté que l'on nomme sidebar-->
+                <div id="hamburger-sidebar">
+                    <div id="hamburger-sidebar-body"></div>
+                </div>
+                <!--Notre masque qui viendra en fond, nommé overlay
                     l'idée principale est de venir remplir automatiquement 
                     la sidebar du contenu du menu. quand la taille de notre
                     document est convenablement réduite, on impacte sur ces 
                     deux éléments pour afficher notre menu hamburger-->
-                    <div id="hamburger-overlay"> 
-                        <p>
-                            X
-                        </p>
-                    </div>
+                <div id="hamburger-overlay">
+                    <p>
+                        X
+                    </p>
                 </div>
-            </header>
-        </div>
-        <section id="pageContent">
-            <span class="messent"><?php echo $messent ?></span>
-            <div class="row" id="firstRow">
-                <div class="col-md-1 col-sm-0" id="separator-left-right"></div>
-                <div class="col-md-12 col-lg-6" id="costumeBook">
-                    <img src="/assets/images/booknow/costume-book-now.jpg" alt="image book now">
-                </div>
-                <div class="col-lg-4 col-md-12" id="costumeTextBook">
-                    <div class="getInTouchWord">
-                        <img src="/assets/images/mots-en-images/getintouch-booknow.jpg" alt="image book now">
-                    </div>
-                    <div class="write-left-right">
-                        <p class="write-left">
-                            The Sastré experience begins with a consultation at our Shoreditch Studio. Here you will begin your sartorial journey, where we will guide you through our bespoke service.
-                        </p>
-
-                        <p class="write-space"></p>
-                        <p class="write-space"></p>
-
-                        <p class="write-right">
-                            Send an email to contact@sastrelondon.com;<br> 
-                            or give a call to Franc on +44 7531 310197.
-                        </p>
-                    </div>
-                    <div class="getInTouchWord2">
-                        <img src="/assets/images/mots-en-images/we'dlovetohear-booknow.jpg" alt="image book now">
-                    </div>
-                </div>
-                <div class="col-md-1 col-sm-0" id="separator-left-right"></div>
             </div>
-
-            <div class="row" id="secondRow">
-                <div class="col-lg-4 col-md-12" id="planning">
-                    <p style="font-size: 12px;font-family: 'Dosis'; color:#222222;">Please use our contact form to book an appointment and one of tailoring experts will get in touch to plan your initial consultation.</p>
-                    <br>
-                    <div id="mycalendar" >
-                        <img src="/assets/images/booknow/sketch.jpg" width="100%" height="auto" alt="image book now">
-                    </div>
+        </header>
+    </div>
+    <section id="pageContent">
+        <div class="row" id="firstRow">
+            <div class="col-md-1 col-sm-0" id="separator-left-right"></div>
+            <div class="col-md-12 col-lg-6" id="costumeBook">
+                <img src="/assets/images/booknow/costume-book-now.jpg" alt="image book now">
+            </div>
+            <div class="col-lg-4 col-md-12" id="costumeTextBook">
+                <div class="getInTouchWord">
+                    <img src="/assets/images/mots-en-images/getintouch-booknow.jpg" alt="image book now">
                 </div>
-                <div class="col-lg-6 col-md-12" id="contactform">
-                    <form action="book.php" id="ajaxform" method="post">
-                        <div class="form-group" id="names">
-                            <div class="form-row">
-                                <div class="col-lg-6 col-md-12 ">
-                                    <label class="labels" for="FirstName">First Name</label>
-                                    <input type="text" title="Only uppercase or lowercase letters please" name="FirstName" class="form-control" id="exampleInputFirstName" aria-describedby="first-name-help" value="" required pattern="[A-Za-z]{3,}">
-                                    <span class="error-message" name="error"><?php echo $fnerror ?></span>
-                                </div>
-                                <div class="col-lg-6 col-md-12">
-                                    <label class="labels" for="LastName">Last Name</label>
-                                    <input type="text" title="Only uppercase or lowercase letters please" name="LastName" class="form-control" id="exampleInputLastName" aria-describedby="last-name-help" required pattern="[A-Za-z]{3,}">
-                                    <span class="error-message" name="error"><?php echo $lnerror ?></span>
-                                </div>
+                <div class="write-left-right">
+                    <p class="write-left">
+                        The Sastré experience begins with a consultation at our Shoreditch Studio. Here you will begin
+                        your sartorial journey, where we will guide you through our bespoke service.
+                    </p>
+
+                    <p class="write-space"></p>
+                    <p class="write-space"></p>
+
+                    <p class="write-right">
+                        Send an email to contact@sastrelondon.com;<br>
+                        or give a call to Franc on +44 7531 310197.
+                    </p>
+                </div>
+                <div class="getInTouchWord2">
+                    <img src="/assets/images/mots-en-images/we'dlovetohear-booknow.jpg" alt="image book now">
+                </div>
+            </div>
+            <div class="col-md-1 col-sm-0" id="separator-left-right"></div>
+        </div>
+
+        <div class="row" id="secondRow">
+            <div class="col-lg-4 col-md-12" id="planning">
+                <p style="font-size: 12px;font-family: 'Dosis'; color:#222222;">Please use our contact form to book an
+                    appointment and one of tailoring experts will get in touch to plan your initial consultation.</p>
+                <br>
+                <div id="mycalendar">
+                    <img src="/assets/images/booknow/sketch.jpg" width="100%" height="auto" alt="image book now">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12" id="contactform">
+                <form action="book.php" id="ajaxform" method="post">
+                    <div class="form-group" id="names">
+                        <div class="form-row">
+                            <div class="col-lg-6 col-md-12 ">
+                                <label class="labels" for="FirstName">First Name</label>
+                                <input type="text" title="Only uppercase or lowercase letters please" name="FirstName"
+                                    class="form-control" id="exampleInputFirstName" aria-describedby="first-name-help"
+                                    value="" required pattern="[A-Za-z]{3,}">
+                                <span class="error-message" name="error"><?php echo $fnerror ?></span>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <label class="labels" for="LastName">Last Name</label>
+                                <input type="text" title="Only uppercase or lowercase letters please" name="LastName"
+                                    class="form-control" id="exampleInputLastName" aria-describedby="last-name-help"
+                                    required pattern="[A-Za-z]{3,}">
+                                <span class="error-message" name="error"><?php echo $lnerror ?></span>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <label class="labels" for="Email">Email</label>
-                            <input type="email" name="Email" class="form-control labels" id="exampleInputEmail1" aria-describedby="email-help" required>
-                            <span class="error-message" name="error"><?php echo $mlerror ?></span>
-                        </div>
-                        <div class="form-group">
-                            <label class="labels" for="Subject">Subject</label>
-                            <input type="text" name="Subject" class="form-control" id="exampleInputSubject" aria-describedby="email-name-help" required pattern="[A-Za-z]{3,}">
-                            <span class="error-message" name="error"><?php echo $sberror ?></span>
-                        </div>
-                        <div class="form-group">
-                            <label class="labels" for="Phone">Phone</label>
-                            <input class="form-control" title="example : +446663." name="Phone" type="tel" id="tel-input-help" required pattern="[+]{1}[0-9]{8,}">
-                            <span class="error-message" name="error"><?php echo $pnerror ?></span>
-                        </div>
-                        <div class="form-group">
-                            <label class="labels" for="Message">Enter Your Message</label>
-                            <textarea class="form-control" name="Message" id="message-help" rows="6" required></textarea>
-                            <span class="error-message" name="error"><?php echo $mserror ?></span>
-                        </div>
-                        <button type="submit" name="Submit" id="submit">Submit</button>
-                    </form>
-                </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="labels" for="Email">Email</label>
+                        <input type="email" name="Email" class="form-control labels" id="exampleInputEmail1"
+                            aria-describedby="email-help" required>
+                        <span class="error-message" name="error"><?php echo $mlerror ?></span>
+                    </div>
+                    <div class="form-group">
+                        <label class="labels" for="Subject">Subject</label>
+                        <input type="text" name="Subject" class="form-control" id="exampleInputSubject"
+                            aria-describedby="email-name-help" required pattern="[A-Za-z]{3,}">
+                        <span class="error-message" name="error"><?php echo $sberror ?></span>
+                    </div>
+                    <div class="form-group">
+                        <label class="labels" for="Phone">Phone</label>
+                        <input class="form-control" title="example : +446663." name="Phone" type="tel"
+                            id="tel-input-help" required pattern="[+]{1}[0-9]{8,}">
+                        <span class="error-message" name="error"><?php echo $pnerror ?></span>
+                    </div>
+                    <div class="form-group">
+                        <label class="labels" for="Message">Enter Your Message</label>
+                        <textarea class="form-control" name="Message" id="message-help" rows="6" required></textarea>
+                        <span class="error-message" name="error"><?php echo $mserror ?></span>
+                    </div>
+                    <button type="submit" name="Submit" id="submit">Submit</button>
+                </form>
             </div>
-        </section>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="/node_modules/jquery/dist/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <script src="/assets/js/navbar.js"></script>
-        <script src="/node_modules/animate/index.js"></script>
-        <script src="/assets/js/btnfoot.js"></script>
-        
-    </body>
-    <footer>
-        <div class="footer-content3">
-            <span id="social-media3">
-                <a href="https://www.instagram.com/sastrelondon/"><img style="width: 100px;height: 80px;" src="/assets/images/gifs/insta.gif" alt="follow me on instagram"></a>
-                <p><a href="https://www.instagram.com/sastrelondon/">Follow us on Instagram</a></p>
-            </span>
-            <span id="rights3">
-                <strong>SASTRÉLONDON</strong> all rights reserved.
-            </span>
-            <span id="madeby3">
-                Websmaster : <a href="https://www.noonxpand.tech/engversion.html"> noonxpand.tech</a>
-            </span>
         </div>
-        <div class="getbacktop">
-            <button class="btn">
-                <img class="heartBeat" src="/node_modules/bootstrap-icons/icons/chevron-up.svg" alt="go to the top of the site"><br>
-                go back up
-            </button>
-        </div>
-    </footer>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="/assets/js/navbar.js"></script>
+    <script src="/node_modules/animate/index.js"></script>
+    <script src="/assets/js/btnfoot.js"></script>
+
+</body>
+<footer>
+    <div class="footer-content3">
+        <span id="social-media3">
+            <a href="https://www.instagram.com/sastrelondon/"><img style="width: 100px;height: 80px;"
+                    src="/assets/images/gifs/insta.gif" alt="follow me on instagram"></a>
+            <p><a href="https://www.instagram.com/sastrelondon/">Follow us on Instagram</a></p>
+        </span>
+        <span id="rights3">
+            <strong>SASTRÉLONDON</strong> all rights reserved.
+        </span>
+        <span id="madeby3">
+            Websmaster : <a href="https://www.noonxpand.tech/engversion.html"> noonxpand.tech</a>
+        </span>
+    </div>
+    <div class="getbacktop">
+        <button class="btn">
+            <img class="heartBeat" src="/node_modules/bootstrap-icons/icons/chevron-up.svg"
+                alt="go to the top of the site"><br>
+            go back up
+        </button>
+    </div>
+</footer>
+
 </html>
