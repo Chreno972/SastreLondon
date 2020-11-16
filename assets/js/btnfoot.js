@@ -1,5 +1,4 @@
-$(function()
-{
+$(function () {
 
     document.querySelector('.btn').addEventListener('click', () => {
         window.scrollTo({

@@ -1,16 +1,9 @@
 
 /* NAVBAR */
-@media all and (max-width: 480px) 
-{ 
-    
-    /* SERVICES */
-    /********************************************************************************************************/
-    /* LIFESTYLE */
-    /********************************************************************************************************/
-    /* BOOK NOW */
-    /********************************************************************************************************/
+@media all and (max-width: 480px)  { 
 
-
+    /********************************************************************************************************/
+    /********************************************************************************************************/
     /* HOME PAGE ********************************************************************************************/
     
     // Homepage Navbar
@@ -82,7 +75,6 @@
     footer 
     {
         height: 290px;
-        margin-bottom: 50px!important;
         .footer-home-content
         {
             width: 100%;
@@ -111,270 +103,324 @@
             }
         }
         .getbacktop-home {
-            height: 70px;
+            display: none;
+        }
+    }
+
+/********************************************************************************************************/
+/********************************************************************************************************/
+/* SERVICES **********************************************************************************************/
+
+    #allServicePage
+    {
+        padding: 0px 15px;
+        overflow-x: hidden;
+        display: flex!important;
+        align-items: center;
+        font-family: 'Dosis, sans-serif';
+        
+        .nota-bene-service2 {
+            width: 100%;
+            padding: 0;
+            text-align: justify;
+            font-size: 14px;
+            margin-bottom: 20px; 
+        }
+
+        div.block-space {
+            display: none;
+        }
+
+        .top-service-image-text {
+            text-align: center;
+            width: 100%;
+            height: 6%;
+            margin: 0 20px;
+            display: flex;
+            justify-content: center;
             align-items: center;
-            padding-bottom: 0;
+            background-size: 100% 120%;
+            .title-style-service {
+                width: 100%;
+                margin: 0 auto!important;
+            }
+            .title {
+                p {
+                    font-size: 13px;
+                    text-shadow: 0px 0px 1px #222222;
+                    height: 50px;
+                    letter-spacing: 3px;
+                    font-weight: 500;
+                    margin: 15px;
+                    padding-top: 10px;
+                }
+            }
+            .subtitle {
+                p {
+                    font-size: 13px;
+                    text-shadow: 0px 0px 1px #222222;
+                    height: inherit;
+                    letter-spacing: 1px;
+                    font-family: 'Dosis';
+                    margin: 0;
+                    padding: 0;
+                    height: 18px;
+                    padding-top: 10px;
+                }
+            }
+        }
+
+        .second-service-image-text {
+            #second-service-image-one, #second-service-image-two {
+                img {
+                    width: 100%!important;
+                    height: 556px!important;
+                    margin: 0 auto;
+                }
+            }
+            #second-service-image-text-text p {
+                width: 100%;
+                height: auto;
+                padding: 17px;
+                margin: 0%;
+                padding: 0!important;
+                font-size: 14px;
+                text-align: justify;
+            }
+        }
+        
+        .third-service-image-text {
+            #measuring {
+                div#franc-measuring {
+                    img {
+                        width: 100%!important; 
+                        height: 250px;
+                        padding: 0;
+                        margin: 25px auto 0 auto;
+                    }
+                }
+                #franc-measuring-text {
+                    .fitfont {
+                        img {
+                            width: 100%!important;
+                            padding: 0;
+                            height: auto;
+                            margin: 30px auto;
+                        }
+                    }
+                }
+            }
+        }
+        .fourth-service-image-text {
+            .row {
+                #franc-measuring-text2 {
+                    .fitfont2 {
+                        img {
+                            height: auto;
+                            padding: 0;
+                            margin: 0%;
+                            z-index: 0;
+                        }
+                    }
+                }
+                #franc-measuring2 {
+                    img {
+                        width: 100%!important; 
+                        height: 490px;
+                        padding: 0;
+                        text-shadow: 0px 0px 1px #222222;
+                        margin: 20px 0 0 0;
+                    }
+                }
+            }
+        }
+        .fifth-service-image-text {
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            .row {
+                #franc-measuring3 {
+                    width: inherit;
+                    img {
+                        width: 100%!important;
+                        height: auto;
+                        margin: 50px 0 0 0!important;
+                    }
+                }
+                #franc-measuring-text3 {
+                    .fitfont3 {
+                        img {
+                            margin: 20px 0!important;
+                            height: auto;
+                            padding: 0;
+                            margin: 0%;
+                        }
+                    }
+                }
+            }
+        }
+        .begin-journey-service {
+            width: 100%!important; 
+            height: 200px;
+            padding: 0;
+            text-shadow: 0px 0px 1px #222222;
+            margin: 30px 0;
+            #inner-text {
+                margin: 0 auto;
+                .subtitle-begin-journey {
+                    font-size: 12px;
+                    margin: 0 auto 10px auto;
+                    text-shadow: 0px 1px 1px #222222;
+                }
+                .btn-title-begin-journey {
+                    button {
+                        width: 175px;
+                        height: 41px;
+                        margin: 0 auto;
+                        a {
+                            font-size: 13px;
+                            text-shadow: 0px 1px 1px #222222;
+                        }
+                    }
+                }
+            }
+        }
+        .about-franc {
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            .row.inner-franc {
+                width: 100%;
+                margin: 0 auto;
+                .abf {
+                    padding: 0;
+                    .about-franc-text {
+                        padding: 0;
+                        .about-franc-titre {
+                            img {
+                                width: 100%;
+                                height: auto;
+                                padding: 17px;
+                                margin: 0%;
+                                padding: 0!important;
+                                margin: 30px 0!important;
+                            }
+                        }
+                        .about-franc-text-texte {
+                            padding: 0;
+                            font-size: 14px;
+                            font-family: 'Dosis';
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+                .abm {
+                    width: 100%;
+                    margin: 0 auto;
+                    .about-franc-image {
+                        .imagegalere {
+                            width: 100%;
+                            margin: 0 auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+        }
+        .getbacktop {
+            width: 100%;
+            height: auto;
+            margin-top: -10px;
+            button.btn {
+                width: 100%;
+                height: auto;
+                &:focus {
+                    outline: none;
+                }
+                .heartBeat {
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }
+        }
+    }
+
+    /********************************************************************************************************/
+    /********************************************************************************************************/
+    /* LIFESTYLE ********************************************************************************************/
+    
+    // LIFE STYLE GENERAL
+    .lifestyle-number {
+        font-weight: lighter;
+    }
+
+    #lifestyle-one
+    {
+        width: 100vw;
+        padding: 0 10px 10px 10px;
+        margin-bottom: 25px;
+        #first-suit {
+            width: 100%;
             margin: 0;
+            padding: 0;
+        }
+        .lifestyle-im-1
+        {
+            width: 100%;
+            height: auto;
+            margin: 20px 20px 0 2px!important;
+            align-self: center;
+            justify-self: center;
+            display: flex;
+            img {
+                width: 90%;
+                height: 480px;
+            }
+        }
+        .lifestyle-card {
+            width: 337.5px!important;
+            padding: 0px;
+            color: black;
+            text-align: justify;
+            margin: -8% 0 10% 20%;
+            .lifestyle-txt-1 {
+                width: 90%;
+                text-align: justify;
+                margin: 70px 10px 0 15px;
+                padding-right: 20px;
+                #tiret11 {
+                    text-align: right;
+                }
+                #texte22 {
+                    margin: 70 10px 0 20px;
+                    padding: 1px 0 0 10px;
+                }
+            }
         }
     }
 }
 
-/********************************************************************************************************/
-/********************************************************************************************************/
 
-/* SERVICE */
-@media screen and (max-width: 480px) 
-{
-    
-    body 
-    {
-        overflow-x: hidden;
-    }
-    .title-style-service 
-    {
-        width: 100%;
-        margin: 0 auto!important;
-    }
-    #allServicePage
-    {
-        padding: 50px 0 0 0;
-        overflow-x: hidden;
-        display: flex!important;
-        align-items: center;
-    }
-    .top-service-image-text
-    {
-        text-align: center;
-        width: 100%;
-        height: 6%;
-        margin: 0 20px;
-        display: flex;
-        justify-content: center;
-        background-size: 100% 120%;
-    }
-    .title p
-    {
-        font-size: 13px;
-        text-shadow: 0px 0px 1px #222222;
-        height: 50px;
-        letter-spacing: 3px;
-        font-weight: 500;
-        margin: 15px;
-        padding-top: 10px;
-        font-family: 'Dosis';
-    }
-    .subtitle p
-    {
-        font-size: 13px;
-        text-shadow: 0px 0px 1px #222222;
-        height: inherit;
-        letter-spacing: 1px;
-        font-family: 'Dosis';
-        margin: 0;
-        padding: 0;
-        height: 18px;
-        padding-top: 10px;
-    }
-    div.block-space
-    {
-        display: none;
-    }
-    #second-service-image-one img, #second-service-image-two img
-    {
-        width: 100%!important;
-        height: 556px!important;
-        margin: 0 auto;
-    }
-    #second-service-image-text-text p
-    {
-        padding: 0!important;
-        font-size: 14px;
-        text-align: justify;
-    }
-    div#franc-measuring img
-    {
-        width: 100%!important; 
-        height: 250px;
-        padding: 0;
-        margin: 25px auto 0 auto;
-    }
-    .begin-journey-service
-    {
-        width: 100%!important; 
-        height: 200px;
-        padding: 0;
-        text-shadow: 0px 0px 1px #222222;
-        margin: 30px 0;
-    }
-    #franc-measuring2 img
-    {
-        width: 100%!important; 
-        height: 490px;
-        padding: 0;
-        text-shadow: 0px 0px 1px #222222;
-        margin: 20px 0 0 0;
-    }
-    .fifth-service-image-text
-    {
-        width: 100%;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-    }
-    #franc-measuring3
-    {
-        width: inherit;
-    }
-    #franc-measuring-text3 img
-    {
-        margin: 20px 0!important;
-    }
-    #franc-measuring3 img
-    {
-        width: 100%!important;
-        height: auto;
-        margin: 50px 0 0 0!important;
-    }
-    .btn-title-begin-journey button 
-    {
-        width: 175px;
-        height: 41px;
-        margin: 0 auto;
-    }
-    div#inner-text.row
-    {
-        margin: 0 auto;
-    }
-    .btn-title-begin-journey button a 
-    {
-        font-size: 13px;
-        text-shadow: 0px 1px 1px #222222;
-    }
-    p.subtitle-begin-journey
-    {
-        font-size: 12px;
-        margin: 0 auto 10px auto;
-        text-shadow: 0px 1px 1px #222222;
-    }
-    .abf img
-    {
-        padding: 0!important;
-        margin: 30px 0!important;
-    }
-    .fitfont img
-    {
-        width: 100%!important;
-        padding: 0;
-        height: auto;
-        margin: 30px auto;
-    }
-    .fitfont2 img, .fitfont3 img, .about-franc-text-texte
-    {
-        
-        height: auto;
-        padding: 0;
-        margin: 0%;
-    }
-    .fitfont2 img
-    {
-        z-index: 0;
-    }
-    .about-franc-text-texte, .about-franc-text img, #second-service-image-text-text p, .getInTouchWord img
-    {
-        width: 100%;
-        height: auto;
-        padding: 17px;
-        margin: 0%;
-    }
-    .nota-bene-service2
-    {
-        width: 100%;
-        padding: 0;
-        text-align: justify;
-        font-size: 14px;
-        margin-bottom: 20px; 
-    }
-    .about-franc-text-texte
-    {
-        padding: 0;
-        font-size: 14px;
-        font-family: 'Dosis';
-        margin-bottom: 20px;
-    }
-    .about-franc 
-    {
-        width: 100%;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-    }
-    .about-franc-text
-    {
-        padding: 0;
-    }
-    .imagegalere
-    {
-        width: 100%;
-        margin: 0 auto;
-    }
-    .inner-franc
-    {
-        width: 100%;
-        margin: 0 auto;
-    }
-    .abm 
-    {
-        width: 100%;
-        margin: 0 auto;
-    }
-}
 /* LIFESTYLE */
 @media screen and (max-width: 480px) 
 {
-    #allServicePage
-    {
-        width: 100%;
-        height: auto;
-        padding: 0 15px;
-    }
-    #lifestyle-one
-    {
-        width: 100vw;
-        padding: 10px;
-        margin-bottom: 25px;
-    }
-    .lifestyle-txt-1
-    {
-        width: 90%;
-        text-align: justify;
-        margin: 70px 10px 0 15px;
-        padding-right: 20px;
-    }
+    
+    
     #num11
     {
         margin-top: 30px;
-    }
-    .lifestyle-im-1 img
-    {
-        width: 90%;
-        height: 480px;
-    }
-    .lifestyle-im-1
-    {
-        width: 100%;
-        height: auto;
-        margin: 20px 20px 0 2px!important;
-        align-self: center;
-        justify-self: center;
-        display: flex;
-    }
-    .lifestyle-card
-    {
-        width: 337.5px!important;
-        padding: 0px;
-        color: black;
-        text-align: justify;
-        margin: -8% 0 10% 20%;
     }
     
     #lifestyle-two.row
@@ -429,11 +475,6 @@
     {
         margin: 0 0 0 20px;
     }
-    p#texte22.lifestyle-texte
-    {
-        margin: 70 10px 0 20px;
-        padding: 1px 0 0 10px;
-    }
     #the4divs
     {
         width: 100%;
@@ -447,23 +488,14 @@
         justify-content: center;
     }
     .homeMadeThumb img {
-        width: 100vw;    
+        width: 100%;    
         height: auto;
-        padding: 0 10px;
+        padding: 0;
         margin: 0 auto 10px auto;
     }
-    .lifestyle-card
-    {
-        margin-left: 67px!important;
-        padding-right: 0px!important;
-    }
-    #num11, #num33, #tiret11, #tiret33, #text11, #text33
+    #num11, #num33, #tiret33, #text11, #text33
     {
         text-align: right;
-    }
-    .lifestyle-number
-    {
-        font-weight: lighter;
     }
 }
 
@@ -507,6 +539,10 @@
     .getInTouchWord img
     {
         padding: 0px;
+        width: 100%;
+        height: auto;
+        padding: 17px;
+        margin: 0%;
     }
     .write-left-right
     {
