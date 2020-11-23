@@ -2,9 +2,9 @@
 /* NAVBAR */
 @media all and (max-width: 480px)  { 
 
-    /********************************************************************************************************/
-    /********************************************************************************************************/
-    /* HOME PAGE ********************************************************************************************/
+    /***************************************************************************************************/
+    /***************************************************************************************************/
+    /* HOME PAGE ***************************************************************************************/
     
     // Homepage Navbar
     div.container-fluid {
@@ -74,15 +74,20 @@
     }
     footer 
     {
-        height: 290px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
         .footer-home-content
         {
             width: 100%;
-            height: auto;
+            height: inherit;
             display: flex;
             flex-direction: column;
+            align-items: center;
             color: #222222;
             padding: 10px;
+            margin-top: -30px;
             #social-media a
             {
                 color: #222222;
@@ -100,16 +105,26 @@
                 font-size: 12px;
                 margin: 0 auto 20px auto;
                 float: none;
+                a {
+                    color: #222;
+                }
             }
         }
         .getbacktop-home {
-            display: none;
+            width: inherit;
+            height: auto;
+            margin: -10px 0 0 0;
+            padding-bottom: 30px;
+            .btn {
+                width: inherit;
+                margin-top: -20px;
+            }
         }
     }
 
-    /********************************************************************************************************/
-    /********************************************************************************************************/
-    /* SERVICES **********************************************************************************************/
+    /***************************************************************************************************/
+    /***************************************************************************************************/
+    /* SERVICES ****************************************************************************************/
 
     #allServicePage
     {
@@ -361,9 +376,9 @@
         }
     }
 
-    /********************************************************************************************************/
-    /********************************************************************************************************/
-    /* LIFESTYLE ********************************************************************************************/
+    /***************************************************************************************************/
+    /***************************************************************************************************/
+    /* LIFESTYLE ***************************************************************************************/
     
     // GENERAL
     .lifestyle-number {
@@ -384,7 +399,7 @@
         {
             width: 100%;
             height: auto;
-            margin: 20px 20px 0 2px!important;
+            margin: 20px 20px 0 2px;
             align-self: center;
             justify-self: center;
             display: flex;
@@ -428,14 +443,14 @@
         display: flex;
         flex-direction: column-reverse;
         .carte {
-            width: 328px!important;
+            width: 328px;
             padding: 0px;
             color: black;
             text-align: justify;
             margin: -30px 0 50px 0;
-            padding: 0 0 0 15px!important;
+            padding: 0 0 0 15px;
             .lifestyle-txt-2 {
-                margin: 30px 10px 20px 20px!important;
+                margin: 30px 10px 20px 20px;
                 padding: 0 15px 0 0;
                 text-align: left;
                 #numsec, #tiret {
@@ -448,7 +463,7 @@
             }
         }
         .costume {
-            width: 100%!important;
+            width: 100%;
             padding: 0 0 0 1px;
             height: auto;
             img {
@@ -466,7 +481,7 @@
         margin: 0 auto;
         .homeMadeThumb {
             width: 100%;
-            margin: 0 auto!important;
+            margin: 0 auto;
             display: flex;
             justify-content: center;
             img {
@@ -477,13 +492,35 @@
             }
         }
     }
+    footer {
+        .footer-content2 {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            color: #222222;
+        }
+        #social-media2 a {
+            color: #222222;
+            font-size: 12px;
+        }
+        #rights2 {
+            margin: -30px auto 10px auto;
+            float: none;
+            text-decoration: none;
+            list-style-type: none;
+        }
+        #madeby2 {
+            font-size: 12px;
+            margin: 0 auto 20px auto;
+            float: none;
+        }
+    }
 
-}
+    /***************************************************************************************************/
+    /***************************************************************************************************/
+    /* BOOK NOW ****************************************************************************************/
 
-/* BOOK NOW */
-@media screen and (max-width: 480px) {
-
-    // GENERAL
+    // VALIDATION APPEARING DIV
     .black-mirror {
         box-sizing: border-box;
         #messent-container {
@@ -501,240 +538,184 @@
             }
         }
     }
-    section#pageContent
-    {
+
+    section#pageContent {
         padding: 15px;
         overflow-x: hidden;
-    }
-    #separator-left-right
-    {
-        display: none;
-        margin: 0px;
-    }
-    #costumeBook
-    {
-        width: 100vw;
-        height: 460px;
-        padding: 0;
-    }
-    #costumeBook img
-    {
-        width: 100%;
-        height: 100%;
-        background-size: contain;
-    }
-    div#costumeTextBook
-    {
-        width: 100vw;
-        height: auto;
-        padding: 0;
-    }
-    .getInTouchWord
-    {
-        width: 100%;
-        height: auto;
-        padding: 0px;
-    }
-    .getInTouchWord img
-    {
-        padding: 0px;
-        width: 100%;
-        height: auto;
-        padding: 17px;
-        margin: 0%;
-    }
-    .write-left-right
-    {
-        width: 100%;
-        height: auto;
-        padding: 0px;
-        text-align: justify;
-        font-size: 14px;
-    }
-    .write-left-right p
-    {
-        
-        width: 100%!important;
-        text-align: justify!important;
-    }
-    .write-right
-    {
-        margin: -50px 0 0 0!important;
-        float: none;
-    }
-    .write-left
-    {
-        float: none;
-        text-align: justify;
-        margin:0;
-    }
-    .write-space
-    {
-        height: 0;
-    }
-    .getInTouchWord2
-    {
-        width: 100%;
-        height: auto;
-        padding: 0px;
-        margin-top: 20px;
-    }
-    .getInTouchWord2 img
-    {
-        width: 100%;
-        height: auto;
-        padding: 0px;
-        z-index: 4;
-    }
-    #secondRow 
-    {
-        width: 100%;
-        height: auto;
-        margin:0;
-    }
-    #secondRow.row
-    {
-        margin: 0 auto;
-    }
-    #secondRow p
-    {
-        width: 100%;
-        height: auto;
-        margin: auto!important;
-    }
-    #firstRow 
-    {
-        width: 100%;
-        height: 622px;
-        margin: 0 auto 150px auto;
-    }
-    #planning 
-    {
-        width: 100%;
-        height: auto;
-        padding: 0;
-        margin-top: 75px;
-    }
-    #planning p 
-    {
-        font-size: 14px!important;
-    }
-    .yui3-widget.yui3-calendarbase.yui3-calendar
-    {
-        height: auto!important;
-        margin: 0 auto;
-    }
-    #mycalendar
-    {
-        border: none;
-        color: rgba(34, 34, 34, 0.575);
-        background: none;
-        width: 90vw;
-        height: auto;
-        overflow-x: hidden;
-        padding: 0px 2px;
-        box-shadow: none;
-    }
-    #contactform 
-    {
-        margin: 0 20px;
-        display: block;
-        margin: 0 auto!important;
-        padding: 0;
-    }
-    #submit:hover
-    {
-        background-color: white;
-        border-color: solid 1px #222;
-        color: #222;
-    }
-    #submit
-    {
-        background: #222;
-        color: white;
-        border-radius: 50px;
-        -webkit-border-radius: 50px;
-        -moz-border-radius: 50px;
-        -ms-border-radius: 50px;
-        -o-border-radius: 50px;
-        width: 100%;
-        height: 50px;
-        margin: 0 auto;
-        border-radius: 5px;
-    }
-    .blockSeparator
-    {
-        height: 100px;
+        #firstRow {
+            width: 100%;
+            height: 622px;
+            margin: 0 auto 150px auto;
+            #separator-left-right {
+                display: none;
+                margin: 0px;
+            }
+            #costumeBook {
+                width: 100vw;
+                height: 460px;
+                padding: 0;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    background-size: contain;
+                }
+            }
+            div#costumeTextBook {
+                width: 100vw;
+                height: auto;
+                padding: 0;
+                .getInTouchWord
+                {
+                    width: 100%;
+                    height: auto;
+                    padding: 0px;
+                    img {
+                        padding: 0px;
+                        width: 100%;
+                        height: auto;
+                        margin: 0%;
+                    }
+                }
+                .write-left-right
+                {
+                    width: 100%;
+                    height: auto;
+                    padding: 0px;
+                    text-align: justify;
+                    font-size: 14px;
+                    p {
+                        
+                        width: 100%;
+                        text-align: justify;
+                    }
+                    .write-left {
+                        float: none;
+                        text-align: justify;
+                        margin:0;
+                    }
+                    .write-right {
+                        margin: -50px 0 0 0;
+                        float: none;
+                    }
+                    .write-space {
+                        height: 0;
+                    }
+                }
+                .getInTouchWord2 {
+                    width: 100%;
+                    height: auto;
+                    padding: 0px;
+                    margin-top: 20px;
+                    img {
+                        width: 100%;
+                        height: auto;
+                        padding: 0px;
+                        z-index: 4;
+                    }
+                }
+            }
+        }
+        #secondRow {
+            width: 100%;
+            height: auto;
+            margin:0 auto;
+            p {
+                width: 100%;
+                height: auto;
+                margin: auto!important;
+            }
+
+            #planning {
+                width: 100%;
+                height: auto;
+                padding: 0;
+                margin-top: 75px;
+                p {
+                    font-size: 14px!important;
+                }
+                #mycalendar {
+                    border: none;
+                    color: rgba(34, 34, 34, 0.575);
+                    background: none;
+                    width: 90vw;
+                    height: auto;
+                    overflow-x: hidden;
+                    padding: 0px 2px;
+                    box-shadow: none;
+                }
+            }
+
+            #contactform {
+                display: block;
+                margin: 0 auto;
+                padding: 0;
+                #ajaxform {
+                    width: inherit;
+                    height: inherit;
+                    padding-top: 20px;
+                }
+                #submit:hover {
+                    background-color: white;
+                    border-color: solid 1px #222;
+                    color: #222;
+                }
+                #submit {
+                    background: #222;
+                    color: white;
+                    border-radius: 50px;
+                    -webkit-border-radius: 50px;
+                    -moz-border-radius: 50px;
+                    -ms-border-radius: 50px;
+                    -o-border-radius: 50px;
+                    width: 100%;
+                    height: 50px;
+                    margin: 0 auto;
+                    border-radius: 5px;
+                }
+            }
+        }
     }
     
-    .footer-content2
-    {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        color: #222222;
-    }
-    #social-media2 a
-    {
-        color: #222222!important;
-        font-size: 12px;
-    }
-    #rights2
-    {
-        margin: -30px auto 10px auto;
-        float: none;
-        text-decoration: none;
-        list-style-type: none;
-    }
-    #madeby2
-    {
-        font-size: 12px;
-        margin: 0 auto 20px auto;
-        float: none;
-    }
     .footer-content3
     {
         width: 100%;
         display: flex;
         flex-direction: column;
         color: #222222;
+        #social-media3 {
+            a {
+            color: #222222;
+            font-size: 12px;
+            }
+        }
+
+        #rights3 {
+            margin: -30px auto 10px auto;
+            float: none;
+            text-decoration: none;
+            list-style-type: none;
+        }
+
+        #madeby3 {
+            font-size: 12px;
+            margin: 0 auto 20px auto;
+            float: none;
+        }
     }
-    #social-media3 a
-    {
-        color: #222222!important;
-        font-size: 12px;
-    }
-    #rights3
-    {
-        margin: -40px auto 10px auto;
-        float: none;
-        text-decoration: none;
-        list-style-type: none;
-    }
-    #madeby3
-    {
-        font-size: 12px;
-        margin: 0 auto 20px auto;
-        float: none;
-    }
-    .getbacktop
-    {
-        width: 100%;
-        margin: 20px auto 20px auto;
-        display: flex;
-        justify-content: center;
-    }
-    .getbacktop-home
-    {
-        width: 100%;
-        height: auto;
-        margin: 0 auto 20px auto;
-    }
-    button.btn 
-    {
-        height: 35px;
-        width: 100px;
-        margin: 0;
-        text-align: center;
+
+    footer {
+        .getbacktop {
+            width: 100%;
+            margin: 10px auto 20px auto;
+            padding-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            button.btn {
+                height: 35px;
+                width: 200px;
+                margin: -10px 0 0 0;
+                text-align: center;
+            }
+        }
     }
 }

@@ -1,5 +1,8 @@
 User-agent: *
-Allow: /
-Allow: /https://www.sastrelondon.com/
+Disallow: /
+Disallow: /service-page/
+Disallow: /lifestyle-page/
+Disallow: /book.php
+Allow: /https://www.sastrelondon.com/index.html
 Allow: /https://www.sastrelondon.com/sitemap.html
 Sitemap: https://www.sastrelondon.com/sitemap.xml
